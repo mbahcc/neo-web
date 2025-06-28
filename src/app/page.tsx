@@ -9,7 +9,6 @@ import TestimonialChike from "./components/testimonialChike";
 import TestimonialNahom from "./components/testimonialNahom";
 import ApplyTodayButton from "./components/applytodaybutton";
 import BottomBar from "./components/bottomBar";
-import { useMediaQuery } from "react-responsive";
 
 export default function Home() {
   return (
@@ -57,21 +56,28 @@ export default function Home() {
         <CommunityCard />
       </div>
 
-      <div className="header" style={{ textAlign: "center" }}>
-        <span>A peek into </span>
+      <div
+        className="header"
+        style={{
+          alignSelf: "center",
+          justifyContent: "center",
+          textAlign: "center",
+        }}
+      >
+        <span>A peek into</span>{" "}
         <span style={{ color: "#9acbd6" }}> neo:</span>{" "}
       </div>
       <div
         style={{
+          display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          display: "flex",
-          gap: "50px",
           marginTop: "10px",
+          gap: "50px",
           padding: "50px",
-          flexDirection: "row",
           margin: "10px auto",
         }}
+        className="testimonialContainer"
       >
         <TestimonialChike />
         <TestimonialNahom />

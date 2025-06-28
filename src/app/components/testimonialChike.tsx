@@ -1,7 +1,6 @@
 "use client";
 import Card from "react-bootstrap/Card";
 import { motion, delay } from "motion/react";
-import { useMediaQuery } from "react-responsive";
 
 /* This is a card commponent from react bootstrap. This card will house a testimonial from Collins Mbah
 about the impact of the neo initative on the community & his career
@@ -16,8 +15,6 @@ text color: black
  */
 
 function TestimonialChike() {
-  const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }} // Initial Position, invisible and start 20px down
@@ -33,10 +30,9 @@ function TestimonialChike() {
       <Card
         bg="#9acbd6"
         style={{
-          width: "36rem",
           boxShadow: "0 6px 12px rgba(0, 0, 0, 0.15)",
         }}
-        className="mb-2"
+        className="mb-2 testimonialCard"
       >
         <Card.Header>
           From Collins Mbah,{" "}

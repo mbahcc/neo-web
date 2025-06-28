@@ -45,6 +45,22 @@ background: #f9f9f7;
 
 }
 
+@media screen and (max-width: 768px){
+  .custom-navbar .nav-link {
+    margin-left: 0px;
+  }
+}
+
+.custom-navbar-image{
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 768px){
+  .custom-navbar-image {
+    margin-left: 0px;
+  }
+}
+
 
 /* Styles header text 
 Font Size: 4xl (Tailwind CSS)
@@ -59,8 +75,8 @@ font weight: 700 (bold)
   font-weight: 700;
   margin-top: 125px;
   margin-left: 100px;
-  display: flex
 }
+
 
 @media screen and (max-width: 768px){
   .header {
@@ -86,7 +102,8 @@ font weight: 400
   word-wrap: break-word;
   margin: 5px;
   margin-left: 100px;
-  display: flex;
+  white-space: "normal";
+
 }
 
 @media screen and (max-width: 768px){
@@ -157,6 +174,7 @@ font weight: 400
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
 
+
 @media screen and (max-width: 768px){
   .cardStyling {
     width: 20rem;
@@ -184,3 +202,23 @@ font weight: 400
     padding-left: 20px
   }
 }
+
+.testimonialCard {
+    width: 44rem;
+}
+
+ @media screen and (max-width: 768px){
+    .testimonialCard {
+      width: 22rem;
+    }
+  }
+
+  .testmonialContainer{
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 768px){
+    .testimonialContainer {
+      flex-direction: column;
+    }
+  }

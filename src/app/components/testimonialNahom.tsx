@@ -31,10 +31,9 @@ function TestimonialNahom() {
       <Card
         bg="#9acbd6"
         style={{
-          width: "36rem",
           boxShadow: "0 6px 12px rgba(0, 0, 0, 0.15)",
         }}
-        className="mb-2"
+        className="mb-2 testimonialCard"
       >
         <Card.Header>
           From Nahom Tewolde,{" "}

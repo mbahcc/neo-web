@@ -12,7 +12,7 @@ function BottomButton() {
   };
 
   const pathname = usePathname();
-  if (!(pathname == "/")) {
+  if (!(pathname == "/" || pathname == "/aboutus")) {
     return null;
   }
 
