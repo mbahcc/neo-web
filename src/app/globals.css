@@ -1,0 +1,186 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+background: #f9f9f7;
+  font-family: Arial, Helvetica, sans-serif, "Source Sans 3";
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px){
+  html,body {
+    background: #f9f9f7;
+  font-family: Arial, Helvetica, sans-serif, "Source Sans 3";
+  overflow-x: hidden !important;
+  }
+}
+
+/* Custom NavBar color that incorporates neo org colors */
+
+.custom-navbar {
+  background-color:  #9acbd6;
+  font-family: "Source Sans 3"
+}
+
+/* Adjust the color of the navbar links. This adjust the color to be white  */
+
+.custom-navbar .nav-link {
+  font-size: var(--text-xl);
+  color: white;
+  font-family: "Source Sans 3";
+  font-weight: 700;
+
+}
+
+
+/* Styles header text 
+Font Size: 4xl (Tailwind CSS)
+Font color: black
+font: Source Sans 3
+font weight: 700 (bold)
+*/
+
+.header {
+  font-size: var(--text-6xl);
+  font-family: Source Sans 3;
+  font-weight: 700;
+  margin-top: 125px;
+  margin-left: 100px;
+  display: flex
+}
+
+@media screen and (max-width: 768px){
+  .header {
+    font-size: var(--text-4xl);
+    margin-left: 0px;
+    padding-left: 20px;
+    font-family: Source Sans 3;
+  }
+}
+
+/* Styles regular text
+Font size: 2xl (Tailwind CSS)
+Font color: black
+font: Source Sans 3
+font weight: 400
+*/
+
+.text {
+  font-size: var(--text-2xl);
+  font-family: Source Sans 3;
+  font-weight: 400;
+  max-width: 850px;
+  word-wrap: break-word;
+  margin: 5px;
+  margin-left: 100px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px){
+  .text{
+    margin-left: 0px;
+    padding-left: 20px;
+    font-size: var(--text-xl);
+    font-family: Source Sans 3;
+  
+  }
+}
+  
+.homePageButtons {
+   display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 100px;
+  margin-top: 20px;
+  gap: 15px
+}
+
+@media screen and (max-width: 768px){
+  .homePageButtons{
+    margin-left: 20px;
+    padding-left: 0px;
+  }
+}
+
+.bottomBarText {
+  font-size: var(--text-lg);
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  max-width: 850px;
+  word-wrap: "break-word";
+}
+
+.inputFormText {
+  font-size: var(--text-xl);
+  font-family: "Source Sans 3";
+  font-weight: 700;
+}
+
+.AboutUsImg {
+  width: "50%";
+  height: "50%"
+}
+
+
+
+  @media screen and (max-width: 768px){
+    .cardCss {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+  }
+  
+  .cardStyling {
+  width: 28rem;
+  border: none;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.cardStyling:hover {
+  transform: translateY(10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px){
+  .cardStyling {
+    width: 20rem;
+  }
+}
+
+.subtitleText {
+  font-size: var(--text-lg);
+  color: #6b6b6b;
+  font-family: Source Sans 3;
+  font-weight: 400;
+  max-width: 950px;
+  word-wrap: break-word;
+  position: relative;
+  top: 80px;
+  margin-left: 100px;
+  text-align: left;
+  display: flex;
+}
+
+@media screen and (max-width: 768px){
+  .subtitleText{
+    margin-left: 0px;
+    font-size: var(--text-md);
+    padding-left: 20px
+  }
+}
