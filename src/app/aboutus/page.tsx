@@ -3,6 +3,8 @@ import NavBar from "../components/navbar";
 import BottomBar from "../components/bottomBar";
 import { motion } from "motion/react";
 import Link from "next/link";
+import MissionCard from "../components/missionCard";
+import StudentsCard from "../components/studentsCard";
 
 function AboutUs() {
   return (
@@ -32,7 +34,7 @@ function AboutUs() {
           style={{
             display: "flex",
             marginTop: "80px",
-            paddingBottom: "150px",
+            paddingBottom: "125px",
             gap: "100px",
           }}
           className="aboutText"
@@ -48,52 +50,19 @@ function AboutUs() {
             }} // Transition length
           >
             <div
-              className="text"
               style={{
                 display: "flex",
-                width: "100%",
                 alignItems: "center",
                 justifyContent: "center",
-                paddingTop: "10px",
-                paddingBottom: "10px",
-                maxWidth: "750px", //override max width
+                marginTop: "10px",
+                gap: "50px",
+                padding: "50px",
+                margin: "10px auto",
               }}
+              className="testimonialContainer"
             >
-              Since 2020, the neo initative mission has been to harness the
-              business acumen of students at the University of Cincinnati to
-              uplift our local minority community. In order to do so, we&apos;ve
-              partnered with local minority owned businesses, connecting them
-              with some of the most renowned and accomplished students. This
-              pool of students come from all educational backgrounds, allowing
-              neo to develop hollistic solutions for our clients that include
-              both business and engineering efforts. Since our inception,
-              we&apos;ve worked with countless clients, delivering tangible
-              value that has helped our clients navigate an increasingly complex
-              socioeconomic business climate.
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
-            animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
-            transition={{
-              duration: 1.0,
-              ease: "easeOut",
-              type: "spring",
-              delay: 1.5,
-            }} // Transition length
-          >
-            <div className="aboutTextParagraph">
-              In addition to uplifting our community, we recognize that our
-              analysts are students first, and are upmost committed to their
-              professional and academic development. We have held events in the
-              past that have involved industry speakers, tool workshops, and
-              various events assist analyst with their internship search. This
-              is reflected in the professional placement of analysts - neo alum
-              can be found at companies such as Google, Evercore, Bain
-              Consulting Company, and EY among others. Additionally, neo alum
-              have also been successful academically, with former members at
-              institutions such as the University of Chicago and Harvard.
+              <MissionCard />
+              <StudentsCard />
             </div>
           </motion.div>
         </div>
@@ -101,7 +70,7 @@ function AboutUs() {
         <div
           style={{
             backgroundColor: "#FAFAFA",
-            marginTop: "50px",
+            marginTop: "0px",
             paddingTop: "0px",
             paddingBottom: "150px",
             marginBottom: "-200px",
