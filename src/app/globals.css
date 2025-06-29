@@ -16,14 +16,14 @@
 
 body {
 background: #f9f9f7;
-  font-family: Arial, Helvetica, sans-serif, "Source Sans 3";
+  font-family: Arial, Helvetica, sans-serif, Source Sans 3;
   overflow-x: hidden;
 }
 
 @media screen and (max-width: 768px){
   html,body {
     background: #f9f9f7;
-  font-family: Arial, Helvetica, sans-serif, "Source Sans 3";
+  font-family: Arial, Helvetica, sans-serif, Source Sans 3;
   overflow-x: hidden !important;
   }
 }
@@ -32,7 +32,7 @@ background: #f9f9f7;
 
 .custom-navbar {
   background-color:  #9acbd6;
-  font-family: "Source Sans 3"
+  font-family: Source Sans 3;
 }
 
 /* Adjust the color of the navbar links. This adjust the color to be white  */
@@ -40,7 +40,7 @@ background: #f9f9f7;
 .custom-navbar .nav-link {
   font-size: var(--text-xl);
   color: white;
-  font-family: "Source Sans 3";
+  font-family: Source Sans 3;
   font-weight: 700;
 
 }
@@ -140,15 +140,15 @@ font weight: 400
 
 .bottomBarText {
   font-size: var(--text-lg);
-  font-family: "Source Sans 3";
+  font-family: Source Sans 3;
   font-weight: 400;
   max-width: 850px;
-  word-wrap: "break-word";
+  word-wrap: break-word;
 }
 
 .inputFormText {
   font-size: var(--text-xl);
-  font-family: "Source Sans 3";
+  font-family: Source Sans 3;
   font-weight: 700;
 }
 

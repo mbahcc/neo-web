@@ -1,8 +1,5 @@
 "use client";
 import NavBar from "../components/navbar";
-import ApplyNowCard from "../components/applyNowCard";
-import LearnNeoButton from "../components/learnNeoButton";
-import AboutThePresButton from "../components/meetThePresButton";
 import BottomBar from "../components/bottomBar";
 import { motion } from "motion/react";
 import Link from "next/link";
@@ -64,15 +61,15 @@ function AboutUs() {
             >
               Since 2020, the neo initative mission has been to harness the
               business acumen of students at the University of Cincinnati to
-              uplift our local minority community. In order to do so, we've
+              uplift our local minority community. In order to do so, we&apos;ve
               partnered with local minority owned businesses, connecting them
               with some of the most renowned and accomplished students. This
               pool of students come from all educational backgrounds, allowing
               neo to develop hollistic solutions for our clients that include
-              both business and engineering efforts. Since our inception, we've
-              worked with countless clients, delivering tangible value that has
-              helped our clients navigate an increasingly complex socioeconomic
-              business climate.
+              both business and engineering efforts. Since our inception,
+              we&apos;ve worked with countless clients, delivering tangible
+              value that has helped our clients navigate an increasingly complex
+              socioeconomic business climate.
             </div>
           </motion.div>
 

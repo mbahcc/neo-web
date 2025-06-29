@@ -1,6 +1,6 @@
 "use client";
 import Card from "react-bootstrap/Card";
-import { motion, delay } from "motion/react";
+import { motion } from "motion/react";
 
 /* This is a card commponent from react bootstrap. This card will house a testimonial from Collins Mbah
 about the impact of the neo initative on the community & his career

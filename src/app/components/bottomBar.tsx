@@ -1,5 +1,4 @@
 import BottomButton from "./bottomButton";
-import { motion } from "motion/react";
 
 function BottomBar() {
   return (

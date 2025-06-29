@@ -1,8 +1,5 @@
 "use client";
 import NavBar from "../components/navbar";
-import { motion } from "motion/react";
-import ApplicationButton from "../components/applicationButton";
-import ClientApplicationButton from "../components/clientApplicationButton";
 import BottomBar from "../components/bottomBar";
 import InputForm from "../components/inputForm";
 

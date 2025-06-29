@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Source_Sans_3 } from "next/font/google";
+/*import { Source_Sans_3 } from "next/font/google";*/
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
   title: "neo",
 };
 
-const sourceSans = Source_Sans_3({
+/*const sourceSans = Source_Sans_3({
   subsets: ["latin"],
   weight: ["300", "400", "600", "700"], // Choose needed weights
   variable: "--font-source-sans", // Optional: CSS variable
-});
+});*/
 
 export default function RootLayout({
   children,

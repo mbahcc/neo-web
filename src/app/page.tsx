@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import ColorSchemesExample from "./components/navbar";
 import ContactUsButton from "./components/contactusbutton";
 import CommunityCard from "./components/communityCard";

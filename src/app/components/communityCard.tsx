@@ -1,6 +1,5 @@
 "use client";
 import Card from "react-bootstrap/Card";
-import { useState, useEffect } from "react";
 import { motion } from "motion/react";
 
 function CommunityCard() {

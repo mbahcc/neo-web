@@ -1,7 +1,6 @@
 "use client"; // For client-side hooks
 import Button from "react-bootstrap/Button";
 import { useRouter } from "next/navigation";
-import { motion } from "motion/react";
 
 function AboutThePresButton() {
   const router = useRouter(); // Next.js navigation hook
