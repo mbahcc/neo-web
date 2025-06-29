@@ -13,15 +13,7 @@ function SpringOnboarding() {
         delay: 1.0,
       }} // Transition length
     >
-      <Card
-        style={{
-          width: "28rem",
-          border: "none",
-          boxShadow: "0 6px 12px rgba(0, 0, 0, 0.15)",
-          transform: "translateY(20px)",
-          transition: "opacity 0.6s ease-out, transform 0.6s ease-out",
-        }}
-      >
+      <Card className="cardStyling">
         <Card.Img variant="top" src="onboarding.JPG" />
         <Card.Body>
           <Card.Title

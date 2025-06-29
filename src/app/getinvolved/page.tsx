@@ -38,14 +38,14 @@ function GetInvolved() {
       <div
         style={{
           alignSelf: "center",
-          position: "absolute",
-          marginTop: "275px",
+          marginTop: "175px",
         }}
       >
         <InputForm />
       </div>
-
-      <BottomBar />
+      <div style={{ marginTop: "50px" }}>
+        <BottomBar />
+      </div>
     </div>
   );
 }

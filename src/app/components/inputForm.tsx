@@ -67,7 +67,9 @@ function InputForm() {
       transition={{ duration: 1.5, ease: "easeOut", type: "spring" }} // Transition length
     >
       <form onSubmit={handleSubmit}>
-        <div className="w-300 h-140 pt-5 pr-5 pl-5 pb-3 border border-grey-200 bg-gray-50 shadow-xl rounded-md">
+        <div
+          className="inputFormContainer" /*"w-300 h-140 pt-5 pr-5 pl-5 pb-3 border border-grey-200 bg-gray-50 shadow-xl rounded-md"*/
+        >
           <div
             style={{
               display: "flex",
@@ -86,7 +88,7 @@ function InputForm() {
               <div className="inputFormText"> Company Name </div>
               <input
                 name="company"
-                className="w-280 ht-12 pt-2 pb-2 border border-gray-400 rounded text-xl pl-2 pr-2"
+                className="formInput" /*"w-280 ht-12 pt-2 pb-2 border border-gray-400 rounded text-xl pl-2 pr-2"*/
                 value={formData.company}
                 onChange={handleChange}
                 required
@@ -101,7 +103,7 @@ function InputForm() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-280 ht-12 pt-2 pb-2 border border-gray-400 m-64 rounded text-xl pl-2 pr-2"
+                className="formInput" /*"w-280 ht-12 pt-2 pb-2 border border-gray-400 m-64 rounded text-xl pl-2 pr-2"*/
               />
             </div>
             <div
@@ -118,7 +120,7 @@ function InputForm() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-280 ht-12 pt-2 border border-gray-400 m-64 rounded text-xl pl-2 pr-2 pb-2"
+                className="formInput" /*"w-280 ht-12 pt-2 border border-gray-400 m-64 rounded text-xl pl-2 pr-2 pb-2"*/
               />
             </div>
             <div
@@ -135,7 +137,7 @@ function InputForm() {
                 onChange={handleChange}
                 required
                 placeholder="Briefly describe your company and potential interest in working with neo"
-                className="w-280 h-36  pt-3 border border-gray-400 m-64 rounded text-xl pl-2 pr-2"
+                className="formTextArea" /*"w-280 h-36  pt-3 border border-gray-400 m-64 rounded text-xl pl-2 pr-2"*/
               />
             </div>
             <Button

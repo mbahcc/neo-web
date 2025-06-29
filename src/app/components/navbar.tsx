@@ -10,22 +10,12 @@ function NavBar() {
         <Container fluid>
           <div
             style={{
-              gap: "15px",
               display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
             }}
+            className="navbar-links"
           >
             <Navbar.Brand href="/">
-              <img
-                src="logo.jpg"
-                style={{
-                  borderRadius: "50px",
-                  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
-                  maxWidth: "30%",
-                  marginLeft: "100px",
-                }}
-              ></img>
+              <img src="logo.jpg" className="navbar-icon"></img>
             </Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/events">Events</Nav.Link>

@@ -18,23 +18,7 @@ function Events() {
       }}
     >
       <NavBar />
-      <div
-        style={{
-          fontSize: "var(--text-lg)",
-          color: "#6b6b6b",
-          fontFamily: "Source Sans 3",
-          fontWeight: "400",
-          maxWidth: "950px",
-          wordWrap: "break-word",
-          position: "relative",
-          top: "80px",
-          marginLeft: "100px",
-          textAlign: "left",
-          display: "flex",
-        }}
-      >
-        See how we build community.
-      </div>
+      <div className="subtitleText">See how we build community.</div>
       <motion.div
         initial={{ opacity: 0, y: 40 }} // Initial Position, invisible and start 20px down
         animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
@@ -49,7 +33,7 @@ function Events() {
           className="header"
           style={{
             marginTop: "100px",
-            marginLeft: "100px",
+
             textAlign: "left",
             display: "flex",
           }}
@@ -64,7 +48,9 @@ function Events() {
           marginTop: "20px",
           display: "flex",
           margin: "10px auto",
+          padding: "5px",
         }}
+        className="cardCss"
       >
         <SpringOnboarding />
         <NeoJeopardyCard />

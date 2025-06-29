@@ -30,14 +30,15 @@ function AboutUs() {
         >
           <div className="header">About neo.</div>
         </motion.div>
+
         <div
           style={{
             display: "flex",
-            flexDirection: "row",
             marginTop: "80px",
             paddingBottom: "150px",
-            gap: "5px",
+            gap: "100px",
           }}
+          className="aboutText"
         >
           <motion.div
             initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
@@ -74,6 +75,7 @@ function AboutUs() {
               business climate.
             </div>
           </motion.div>
+
           <motion.div
             initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
             animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
@@ -84,19 +86,7 @@ function AboutUs() {
               delay: 1.5,
             }} // Transition length
           >
-            <div
-              className="text"
-              style={{
-                display: "flex",
-                width: "100%",
-                alignItems: "center",
-                justifyContent: "center",
-                paddingTop: "10px",
-                paddingBottom: "10px",
-                maxWidth: "750px",
-                paddingRight: "100px",
-              }}
-            >
+            <div className="aboutTextParagraph">
               In addition to uplifting our community, we recognize that our
               analysts are students first, and are upmost committed to their
               professional and academic development. We have held events in the
@@ -110,6 +100,7 @@ function AboutUs() {
             </div>
           </motion.div>
         </div>
+
         <div
           style={{
             backgroundColor: "#FAFAFA",
