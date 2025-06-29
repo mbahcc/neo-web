@@ -21,7 +21,9 @@ function NeoJeopardyCard() {
               fontFamily: "Source San 3",
               fontWeight: "700",
             }}
-          ></Card.Title>
+          >
+            neo Jeopardy{" "}
+          </Card.Title>
           <Card.Text
             style={{
               fontFamily: "Source San 3",
