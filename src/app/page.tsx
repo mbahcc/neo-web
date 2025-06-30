@@ -12,6 +12,7 @@ import BottomBar from "./components/bottomBar";
 export default function Home() {
   return (
     <main>
+      <title>neo Initative - Home</title>
       <ColorSchemesExample />
       <div className="subtitleText">More than just a club.</div>
       <div className="header"> Let the Data Speak. </div>

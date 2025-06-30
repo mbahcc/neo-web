@@ -35,6 +35,8 @@ background: #f9f9f7;
   font-family: Source Sans 3;
 }
 
+
+
 /* Adjust the color of the navbar links. This adjust the color to be white  */
 
 .custom-navbar .nav-link {
@@ -47,18 +49,15 @@ background: #f9f9f7;
 
 @media screen and (max-width: 768px){
   .custom-navbar .nav-link {
-    font-size: var(--text-l);
+    font-size: var(--text-md);
 }
 }
 
-@media screen and (max-width: 768px){
-  .custom-navbar .nav-link {
-    margin-left: 0px;
-  }
-}
+
 
 .custom-navbar-image{
   margin-left: 100px;
+  
 }
 
 @media screen and (max-width: 768px){
@@ -342,12 +341,14 @@ font weight: 400
 
 .navbar-links{
   gap: 15px;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
 }
 
 @media screen and (max-width: 768px){
   .navbar-links{
     gap: 0px;
+    
   }
 }

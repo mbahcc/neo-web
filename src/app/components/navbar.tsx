@@ -19,7 +19,7 @@ function NavBar() {
             </Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/events">Events</Nav.Link>
-              <Nav.Link href="/getinvolved" style={{ whiteSpace: "nowrap  " }}>
+              <Nav.Link href="/getinvolved" style={{ whiteSpace: "nowrap" }}>
                 Contact Us
               </Nav.Link>
               <Nav.Link href="/aboutus">About</Nav.Link>

@@ -1,12 +1,12 @@
 "use client"; // For client-side hooks
 import Button from "react-bootstrap/Button";
-import { useRouter } from "next/navigation";
 
 function ApplyTodayButton() {
-  const router = useRouter(); // Next.js navigation hook
-
   const handleClick = () => {
-    router.push("https://colorstackosu.org/index.html");
+    window.open(
+      "https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=bC4i9cZf60iPA3PbGCA7Yz3jtH7v2yxNtQVQwdu0mfNUM0lURTgzVzUwMjBUUlNVTEZITEJPR0tONi4u",
+      "_blank"
+    );
   };
 
   return (

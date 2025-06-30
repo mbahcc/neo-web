@@ -16,6 +16,7 @@ function AboutUs() {
           flexDirection: "column",
         }}
       >
+        <title>neo Initative - About Us</title>
         <div className="subtitleText">Learn more about the neo initative.</div>
         <motion.div
           initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
@@ -150,7 +151,7 @@ function AboutUs() {
                 . Lastly, looking to the become an analyst at neo? You can find
                 the application{" "}
                 <a
-                  href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=bC4i9cZf60iPA3PbGCA7Yz3jtH7v2yxNtQVQwdu0mfNUNENCTkJZUDAxVUxWSzNMV01UMThKMjhERi4u"
+                  href="https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=bC4i9cZf60iPA3PbGCA7Yz3jtH7v2yxNtQVQwdu0mfNUM0lURTgzVzUwMjBUUlNVTEZITEJPR0tONi4u"
                   target="_blank"
                 >
                   {" "}
@@ -161,7 +162,7 @@ function AboutUs() {
           </div>
         </div>
 
-        <div style={{ alignSelf: "flex-end", marginTop: "200px" }}>
+        <div style={{ marginTop: "200px" }}>
           <BottomBar />
         </div>
       </div>

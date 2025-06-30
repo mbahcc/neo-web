@@ -17,6 +17,7 @@ function Events() {
         justifyContent: "space-between",
       }}
     >
+      <title>neo Initative - Events</title>
       <NavBar />
       <div className="subtitleText">See how we build community.</div>
       <motion.div
@@ -76,7 +77,12 @@ function Events() {
           }} // Transition length
         >
           Interested in our upcoming events? Check our calendar{" "}
-          <a href="https://colorstackosu.org/events.html">here</a>
+          <a
+            href="https://1drv.ms/w/c/22079106a0045bcd/ESOUjdlBrXNGsWoZ4tXzOsYBP-R76jVQvALgLgWhPVgALg?e=TGsmTN"
+            target="_blank"
+          >
+            here
+          </a>
         </motion.div>
       </div>
       <div style={{ position: "relative" }}>
