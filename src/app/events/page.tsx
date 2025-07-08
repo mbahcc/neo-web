@@ -17,7 +17,7 @@ function Events() {
         justifyContent: "space-between",
       }}
     >
-      <title>neo Initative - Events</title>
+      <title>Neo Initative | Events</title>
       <NavBar />
       <div className="subtitleText">See how we build community.</div>
       <motion.div

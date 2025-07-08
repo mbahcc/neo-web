@@ -16,7 +16,7 @@ function AboutUs() {
           flexDirection: "column",
         }}
       >
-        <title>neo Initative - About Us</title>
+        <title>Neo Initative | About Us</title>
         <div className="subtitleText">Learn more about the neo initative.</div>
         <motion.div
           initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down

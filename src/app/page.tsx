@@ -12,7 +12,17 @@ import BottomBar from "./components/bottomBar";
 export default function Home() {
   return (
     <main>
-      <title>neo Initative - Home</title>
+      <title>Neo Initative | University of Cincinnati</title>
+      <meta
+        name="description"
+        content="Student-led consulting organization at UC providing data-driven solutions for minority-owned businesses in Cincinnati."
+      />
+      <meta
+        name="keywords"
+        content="University of Cincinnati, UC consulting club, minority business support, student consulting, Cincinnati startups, NEO Initiative"
+      />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
       <ColorSchemesExample />
       <div className="subtitleText">More than just a club.</div>
       <div className="header"> Let the Data Speak. </div>
@@ -27,7 +37,7 @@ export default function Home() {
             {" "}
             The neo initative is a student-led organization at the University of
             Cincinnati that provides consulting services to minority owned local
-            buinsesses.
+            businesses.
           </div>
         </div>
         {/*<div className="header" style={{ margin: "20px" }}>

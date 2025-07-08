@@ -14,7 +14,7 @@ function GetInvolved() {
         justifyContent: "space-between",
       }}
     >
-      <title>neo Initative - Contact Form</title>
+      <title>Neo Initative | Contact Us</title>
       <NavBar />
       <div
         style={{
