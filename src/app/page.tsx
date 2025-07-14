@@ -12,16 +12,66 @@ import BottomBar from "./components/bottomBar";
 export default function Home() {
   return (
     <main>
-      <title>Neo Initative | University of Cincinnati</title>
+      <meta charSet="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Neo Initiative</title>
       <meta
         name="description"
-        content="Student-led consulting organization at UC providing data-driven solutions for minority-owned businesses in Cincinnati."
+        content="More than just a club. The Neo Initiative is a student-led organization at UC providing data-driven consulting services to minority-owned local businesses in Cincinnati. Let the data speak."
+      />
+      <meta
+        property="og:title"
+        content="Neo Initiative | Student-Led Consulting for Minority-Owned Businesses"
+      />
+      <meta
+        property="og:description"
+        content="More than just a club. Student-led organization at UC providing data-driven consulting services to minority-owned local businesses in Cincinnati."
+      />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://neoinitiativeuc.com" />
+      <meta
+        property="og:image"
+        content="https://neoinitiativeuc.com/images/logo.jpg"
+      />
+      <meta
+        property="og:image:alt"
+        content="Neo Initiative - Student-Led Consulting Organization"
+      />
+      <meta property="og:site_name" content="Neo Initiative" />
+      <meta property="og:locale" content="en_US" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:title"
+        content="Neo Initiative | Student-Led Consulting for Minority-Owned Businesses"
+      />
+      <meta
+        name="twitter:description"
+        content="More than just a club. Student-led organization at UC providing data-driven consulting services to minority-owned local businesses in Cincinnati."
+      />
+      <meta
+        name="twitter:image"
+        content="https://neoinitiativeuc.com/images/logo.jpg"
+      />
+      <meta
+        name="twitter:image:alt"
+        content="Neo Initiative - Student-Led Consulting Organization"
       />
       <meta
         name="keywords"
-        content="University of Cincinnati, UC consulting club, minority business support, student consulting, Cincinnati startups, NEO Initiative"
+        content="Neo Initiative, University of Cincinnati, UC consulting, minority business support, student consulting, Cincinnati startups, data-driven solutions, local businesses, community impact, student organization"
       />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="author" content="Neo Initiative" />
+      <meta name="robots" content="index, follow" />
+      <link rel="canonical" href="https://neoinitiativeuc.com" />
+      <meta name="contact" content="neoinitativeuc@gmail.com" />
+      <meta
+        property="og:see_also"
+        content="https://www.linkedin.com/company/neo-initiative/"
+      />
+      <meta
+        property="og:see_also"
+        content="https://www.instagram.com/neoinitiative/"
+      />
 
       <ColorSchemesExample />
       <div className="subtitleText">More than just a club.</div>

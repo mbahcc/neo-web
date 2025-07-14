@@ -8,7 +8,60 @@ import StudentsCard from "../components/studentsCard";
 
 function AboutUs() {
   return (
-    <>
+    <main>
+      <meta charSet="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Neo Initiative</title>
+      <meta
+        name="description"
+        content="Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community. Get in touch through LinkedIn, Instagram, or apply to become an analyst."
+      />
+      <meta property="og:title" content="Neo Initiative" />
+      <meta
+        property="og:description"
+        content="Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community."
+      />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://neoinitiativeuc.com/about" />
+      <meta
+        property="og:image"
+        content="https://neoinitiativeuc.com/images/logo.jpg"
+      />
+      <meta
+        property="og:image:alt"
+        content="Neo Initiative - Our Mission and Students"
+      />
+      <meta property="og:site_name" content="Neo Initiative" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Neo Initiative | About Us" />
+      <meta
+        name="twitter:description"
+        content="Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community."
+      />
+      <meta
+        name="twitter:image"
+        content="https://neoinitiativeuc.com/images/logo.jpg"
+      />
+      <meta
+        name="twitter:image:alt"
+        content="Neo Initiative About Us - Our Mission and Students"
+      />
+      <meta
+        name="keywords"
+        content="Neo Initiative, about us, mission, students, analysts, community building, UC, university, LinkedIn, Instagram, careers, application"
+      />
+      <meta name="author" content="Neo Initiative" />
+      <meta name="robots" content="index, follow" />
+      <link rel="canonical" href="https://neoinitiativeuc.com/about" />
+      <meta
+        property="og:see_also"
+        content="https://www.linkedin.com/company/neo-initiative/"
+      />
+      <meta
+        property="og:see_also"
+        content="https://www.instagram.com/neoinitiative/"
+      />
+      <meta name="contact" content="neoinitativeuc@gmail.com" />
       <NavBar />
       <div
         style={{
@@ -16,7 +69,7 @@ function AboutUs() {
           flexDirection: "column",
         }}
       >
-        <title>Neo Initative | About Us</title>
+        <title>Neo Initative</title>
         <div className="subtitleText">Learn more about the neo initative.</div>
         <motion.div
           initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
@@ -166,7 +219,7 @@ function AboutUs() {
           <BottomBar />
         </div>
       </div>
-    </>
+    </main>
   );
 }
 
