@@ -41,23 +41,23 @@ function TestimonialChike() {
         <Card.Body>
           <Card.Title></Card.Title>
           <Card.Text>
-            The neo initiative was one of the first few clubs I had joined when
+            The Neo initiative was one of the first few clubs I had joined when
             I had initially enrolled at the University of Cincinnati as a
             freshman. Neo grew my analytical and problem-solving skills, giving
             me a real opportunity to apply many of the concepts I was learning
             in the classroom on real-life businesses. The beauty of it was that
             you were able to see your efforts result in tangible benefits for
             your clients, who themselves deal with an increasingly complex
-            socioeconomic business climate. I quickly learned that neo was more
-            than just a consulting organization – it was a community. Many of my
-            closest friends and colleagues have been through neo. It became a
+            socioeconomic business climate. I quickly learned that Neo was more
+            than just a consulting organization–it was a community. Many of my
+            closest friends and colleagues have been through Neo. It became a
             space for students of all disciplines, determined by their desire to
             uplift minority-owned businesses, to grow and develop together.
-            Because of this community aspect, the neo initiative retains ties to
+            Because of this community aspect, the Neo initiative retains ties to
             some of the largest and most prominent companies and organizations
             in the world. Some of these alumni ties and experience helped me
             personally secure internships at Google, GE Appliances, and Kroger.
-            I have been blessed to be apart of such a powerful community, and
+            I have been blessed to be a part of such a powerful community, and
             even more appreciative of those who have believed in my ability to
             serve as President.
           </Card.Text>

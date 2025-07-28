@@ -31,7 +31,7 @@ function BottomBar() {
         >
           <img src="linkedin.svg" />{" "}
         </a>
-        <a href="mailto:neoinitativeuc@gmail.com" target="_blank">
+        <a href="mailto:neoinitiativeuc@gmail.com" target="_blank">
           <img src="envelope-at.svg" />
         </a>
       </div>

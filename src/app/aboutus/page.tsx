@@ -61,7 +61,7 @@ function AboutUs() {
         property="og:see_also"
         content="https://www.instagram.com/neoinitiative/"
       />
-      <meta name="contact" content="neoinitativeuc@gmail.com" />
+      <meta name="contact" content="neoinitiativeuc@gmail.com" />
       <NavBar />
       <div
         style={{
@@ -70,7 +70,7 @@ function AboutUs() {
         }}
       >
         <title>Neo Initative</title>
-        <div className="subtitleText">Learn more about the neo initative.</div>
+        <div className="subtitleText">Learn more about the Neo initiative.</div>
         <motion.div
           initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
           animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
@@ -81,7 +81,7 @@ function AboutUs() {
             delay: 0.5,
           }} // Transition length
         >
-          <div className="header">About neo.</div>
+          <div className="header">About Neo.</div>
         </motion.div>
 
         <div
@@ -197,11 +197,11 @@ function AboutUs() {
                 </a>
                 . For clients, you can formally send an inquiry by utilizing
                 this <Link href="/getinvolved">form.</Link> Looking to host an
-                event in collaboration with us? Please reach us at{" "}
-                <a href="mailto:neoinitativeuc@gmail.com" target="_blank">
-                  neoinitativeuc@gmail.com
+                event in collaboration with us? Please reach us by email{" "}
+                <a href="mailto:neoinitiativeuc@gmail.com" target="_blank">
+                  here
                 </a>
-                . Lastly, looking to the become an analyst at neo? You can find
+                . Lastly, looking to the become an analyst at Neo? You can find
                 the application{" "}
                 <a
                   href="https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=bC4i9cZf60iPA3PbGCA7Yz3jtH7v2yxNtQVQwdu0mfNUM0lURTgzVzUwMjBUUlNVTEZITEJPR0tONi4u"

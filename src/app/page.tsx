@@ -14,7 +14,7 @@ export default function Home() {
     <main>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Neo Initiative</title>
+      <title>Neo Initiative | Let The Data Speak</title>
       <meta
         name="description"
         content="More than just a club. The Neo Initiative is a student-led organization at UC providing data-driven consulting services to minority-owned local businesses in Cincinnati. Let the data speak."
@@ -85,9 +85,9 @@ export default function Home() {
         <div style={{ display: "flex" }}>
           <div className="text">
             {" "}
-            The neo initative is a student-led organization at the University of
-            Cincinnati that provides consulting services to minority owned local
-            businesses.
+            The Neo Initiative is a student-led organization at the University
+            of Cincinnati that provides consulting services to minority owned
+            local businesses.
           </div>
         </div>
         {/*<div className="header" style={{ margin: "20px" }}>

@@ -20,6 +20,5 @@ export default function sitemap() {
       url: "https://neoinitiativeuc.com/aboutus",
       lastModified: new Date(),
     },
-    // Add all other pages
   ];
 }

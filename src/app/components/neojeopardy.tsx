@@ -22,7 +22,7 @@ function NeoJeopardyCard() {
               fontWeight: "700",
             }}
           >
-            neo Jeopardy{" "}
+            Neo Jeopardy{" "}
           </Card.Title>
           <Card.Text
             style={{

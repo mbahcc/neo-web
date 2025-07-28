@@ -107,7 +107,7 @@ function Events() {
           >
             Interested in our upcoming events? Check our calendar{" "}
             <a
-              href="https://1drv.ms/w/c/22079106a0045bcd/ESOUjdlBrXNGsWoZ4tXzOsYBP-R76jVQvALgLgWhPVgALg?e=TGsmTN"
+              href="https://1drv.ms/w/c/22079106a0045bcd/ESOUjdlBrXNGsWoZ4tXzOsYBKVWqjUqyThV-njxt44Kk2A"
               target="_blank"
             >
               here

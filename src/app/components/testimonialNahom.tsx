@@ -41,16 +41,16 @@ function TestimonialNahom() {
         <Card.Body>
           <Card.Title></Card.Title>
           <Card.Text>
-            I joined neo during my freshman year at the advice of a colleague.
+            I joined Neo during my freshman year at the advice of a colleague.
             Now looking back, I&apos;m incredibly grateful I did. Over the past
-            two years, neo has easily been the most impactful organization
+            two years, Neo has easily been the most impactful organization
             I&apos;ve been a part of at the University of Cincinnati. What
-            really drew me towards neo is how tangible the work is. We&apos;re
+            really drew me towards Neo is how tangible the work is. We&apos;re
             helping actual businesses navigate real world challenges. Applying
-            what I&apos;ve learned through neo to make a difference in the
-            community has been both humbling and empowering. But to me, neo is
-            more than a consulting club, it&apos;s a community. Some of the most
-            driven, thoughtful, and inspiring people I&apos;ve met are from neo.
+            what I&apos;ve learned through Neo to make a difference in the
+            community has been both humbling and empowering. But to me, Neo is
+            more than a consulting club-it&apos;s a community. Some of the most
+            driven, thoughtful, and inspiring people I&apos;ve met are from Neo.
             The mentorship and guidance I&apos;ve received from my peers all
             play a huge role in my personal and professional growth. Neo has
             opened doors for me, challenged me, and supported me every step of

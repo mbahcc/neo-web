@@ -40,7 +40,7 @@ function GetInvolved() {
       />
       <meta
         name="twitter:image"
-        content="https://neoinitativeuc.com/images/logo.jpg"
+        content="https://neoinitiativeuc.com/images/logo.jpg"
       />
       <meta
         name="twitter:image:alt"

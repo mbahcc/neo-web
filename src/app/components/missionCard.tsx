@@ -26,13 +26,13 @@ function MissionCard() {
         <Card.Body>
           <Card.Title></Card.Title>
           <Card.Text>
-            Since 2020, the neo initative mission has been to harness the
+            Since 2020, the Neo Initiative's mission has been to harness the
             business acumen of students at the University of Cincinnati to
             uplift our local minority community. In order to do so, we&apos;ve
             partnered with local minority owned businesses, connecting them with
             some of the most renowned and accomplished students. This pool of
-            students come from all educational backgrounds, allowing neo to
-            develop hollistic solutions for our clients that include both
+            students comes from all educational backgrounds, allowing Neo to
+            develop holistic solutions for our clients that include both
             business and engineering efforts. Since our inception, we&apos;ve
             worked with countless clients, delivering tangible value that has
             helped our clients navigate an increasingly complex socioeconomic
