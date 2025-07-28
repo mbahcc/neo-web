@@ -26,8 +26,8 @@ function MissionCard() {
         <Card.Body>
           <Card.Title></Card.Title>
           <Card.Text>
-            Since 2020, the Neo Initiative's mission has been to harness the
-            business acumen of students at the University of Cincinnati to
+            Since 2020, the Neo Initiative&apos;s mission has been to harness
+            the business acumen of students at the University of Cincinnati to
             uplift our local minority community. In order to do so, we&apos;ve
             partnered with local minority owned businesses, connecting them with
             some of the most renowned and accomplished students. This pool of
