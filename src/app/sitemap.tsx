@@ -1,23 +1,23 @@
 export default function sitemap() {
   return [
     {
-      url: "https://neoinitiativeuc.com",
+      url: "https://neoucincy.org",
       lastModified: new Date(),
     },
     {
-      url: "https://neoinitiativeuc.com/events",
+      url: "https://neoucincy.org/events",
       lastModified: new Date(),
     },
     {
-      url: "https://neoinitiativeuc.com/getinvolved",
+      url: "https://neoucincy.org/getinvolved",
       lastModified: new Date(),
     },
     {
-      url: "https://neoinitiativeuc.com/events",
+      url: "https://neoucincy.org/events",
       lastModified: new Date(),
     },
     {
-      url: "https://neoinitiativeuc.com/aboutus",
+      url: "https://neoucincy.org/aboutus",
       lastModified: new Date(),
     },
   ];

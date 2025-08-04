@@ -22,10 +22,10 @@ function Events() {
         content="See how we build community through engaging events. View past events and check our calendar for upcoming activities."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://neoinitiativeuc.com/events" />
+      <meta property="og:url" content="https://neoucincy.org/events" />
       <meta
         property="og:image"
-        content="https://neoinitiativeuc.com/images/logo.jpg"
+        content="https://neoucincy.org/images/logo.jpg"
       />
       <meta property="og:image:alt" content="Neo Initiative Events" />
       <meta property="og:site_name" content="Neo Initiative" />
@@ -36,7 +36,7 @@ function Events() {
       />
       <meta name="author" content="Neo Initiative" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://neoinitiativeuc.com/events" />
+      <link rel="canonical" href="https://neoucincy.org/events" />
 
       <div
         style={{

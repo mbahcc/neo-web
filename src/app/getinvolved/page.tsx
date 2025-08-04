@@ -19,13 +19,10 @@ function GetInvolved() {
         content="Learn how to get involved with Neo Initiative. Contact us to discover opportunities for clients and explore collaboration possibilities."
       />
       <meta property="og:type" content="website" />
-      <meta
-        property="og:url"
-        content="https://neoinitiativeuc.com/get-involved"
-      />
+      <meta property="og:url" content="https://neoucincy.org/get-involved" />
       <meta
         property="og:image"
-        content="https://neoinitiativeuc.com/images/logo.jpg"
+        content="https://neoucincy.org/images/logo.jpg"
       />
       <meta
         property="og:image:alt"
@@ -40,7 +37,7 @@ function GetInvolved() {
       />
       <meta
         name="twitter:image"
-        content="https://neoinitiativeuc.com/images/logo.jpg"
+        content="https://neoucincy.org/images/logo.jpg"
       />
       <meta
         name="twitter:image:alt"

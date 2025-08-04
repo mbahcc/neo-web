@@ -22,10 +22,10 @@ function AboutUs() {
         content="Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://neoinitiativeuc.com/about" />
+      <meta property="og:url" content="https://neoucincy.org/about" />
       <meta
         property="og:image"
-        content="https://neoinitiativeuc.com/images/logo.jpg"
+        content="https://neoucincy.org/images/logo.jpg"
       />
       <meta
         property="og:image:alt"
@@ -40,7 +40,7 @@ function AboutUs() {
       />
       <meta
         name="twitter:image"
-        content="https://neoinitiativeuc.com/images/logo.jpg"
+        content="https://neoucincy.org/images/logo.jpg"
       />
       <meta
         name="twitter:image:alt"
@@ -52,7 +52,7 @@ function AboutUs() {
       />
       <meta name="author" content="Neo Initiative" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://neoinitiativeuc.com/about" />
+      <link rel="canonical" href="https://neoucincy.org/about" />
       <meta
         property="og:see_also"
         content="https://www.linkedin.com/company/neo-initiative/"

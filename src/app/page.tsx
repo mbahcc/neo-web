@@ -28,10 +28,10 @@ export default function Home() {
         content="More than just a club. Student-led organization at UC providing data-driven consulting services to minority-owned local businesses in Cincinnati."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://neoinitiativeuc.com" />
+      <meta property="og:url" content="https://neoucincy.org" />
       <meta
         property="og:image"
-        content="https://neoinitiativeuc.com/images/logo.jpg"
+        content="https://neoucincy.org/images/logo.jpg"
       />
       <meta
         property="og:image:alt"
@@ -50,7 +50,7 @@ export default function Home() {
       />
       <meta
         name="twitter:image"
-        content="https://neoinitiativeuc.com/images/logo.jpg"
+        content="https://neoucincy.org/images/logo.jpg"
       />
       <meta
         name="twitter:image:alt"
@@ -62,8 +62,8 @@ export default function Home() {
       />
       <meta name="author" content="Neo Initiative" />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://neoinitiativeuc.com" />
-      <meta name="contact" content="neoinitativeuc@gmail.com" />
+      <link rel="canonical" href="https://neoucincy.org" />
+      <meta name="contact" content="neoinitiativeuc@gmail.com" />
       <meta
         property="og:see_also"
         content="https://www.linkedin.com/company/neo-initiative/"
