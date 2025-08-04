@@ -3,7 +3,7 @@ import NavBar from "../components/navbar";
 import BottomBar from "../components/bottomBar";
 import InputForm from "../components/inputForm";
 
-function GetInvolved() {
+function ContactUs() {
   return (
     <main>
       <meta charSet="UTF-8" />
@@ -19,7 +19,7 @@ function GetInvolved() {
         content="Learn how to get involved with Neo Initiative. Contact us to discover opportunities for clients and explore collaboration possibilities."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://neoucincy.org/get-involved" />
+      <meta property="og:url" content="https://neoucincy.org/contact-us" />
       <meta
         property="og:image"
         content="https://neoucincy.org/images/logo.jpg"
@@ -88,4 +88,4 @@ function GetInvolved() {
   );
 }
 
-export default GetInvolved;
+export default ContactUs;

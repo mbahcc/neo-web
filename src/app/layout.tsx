@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "neo",
+  title: "Neo Initiative | Let The Data Speak",
 };
 
 /*const sourceSans = Source_Sans_3({
