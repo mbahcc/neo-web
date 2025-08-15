@@ -22,7 +22,7 @@ function NavBar() {
               <Nav.Link href="/contact-us" style={{ whiteSpace: "nowrap" }}>
                 Contact Us
               </Nav.Link>
-              <Nav.Link href="/aboutus">About</Nav.Link>
+              <Nav.Link href="/about-us">About</Nav.Link>
             </Nav>
           </div>
         </Container>

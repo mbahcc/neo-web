@@ -29,7 +29,7 @@ function MissionCard() {
             Since 2020, the Neo Initiative&apos;s mission has been to harness
             the business acumen of students at the University of Cincinnati to
             uplift our local minority community. In order to do so, we&apos;ve
-            partnered with local minority owned businesses, connecting them with
+            partnered with local minority-owned businesses, connecting them with
             some of the most renowned and accomplished students. This pool of
             students comes from all educational backgrounds, allowing Neo to
             develop holistic solutions for our clients that include both

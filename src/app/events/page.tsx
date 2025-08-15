@@ -1,10 +1,10 @@
 "use client";
 import NavBar from "../components/navbar";
 import { motion } from "motion/react";
-import SpringOnboarding from "../components/springonboarding";
-import NeoJeopardyCard from "../components/neojeopardy";
-import FinalPresentationCard from "../components/finalPresentationCard";
-import BottomBar from "../components/bottomBar";
+import SpringOnboarding from "../components/event-spring-onboarding-card";
+import NeoJeopardyCard from "../components/event-neo-jeopardy-card";
+import FinalPresentationCard from "../components/event-final-pres-card";
+import BottomBar from "../components/bottom-bar";
 
 function Events() {
   return (

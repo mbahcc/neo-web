@@ -39,16 +39,15 @@ function StudentsCard() {
           <Card.Title></Card.Title>
           <Card.Text>
             In addition to uplifting our community, we recognize that our
-            analysts are students first, and are utmost committed to their
-            professional and academic development. We have held events in the
-            past that have involved industry speakers, tool workshops, and
-            various events that assist analysts with their internship and
-            postgraduation job search. This is reflected in the professional
-            placement of analysts-Neo alumni can be found at companies such as
-            Google, Evercore, Bain & Company, and EY among others. Additionally,
-            neo alumni have also been successful academically, with former
-            members at institutions such as the University of Chicago and
-            Harvard.
+            analysts are students first, and are committed to their professional
+            and academic development. We have held events in the past that have
+            involved industry speakers, tool workshops, and various events that
+            assist analysts with their internship and post-graduation job
+            search. This is reflected in the professional placement of
+            analysts—Neo alumni can be found at companies such as Google,
+            Evercore, Bain & Company, and EY among others. Additionally, you can
+            find neo alumni in higher education at institutions such as the
+            University of Chicago and Harvard.
           </Card.Text>
         </Card.Body>
       </Card>

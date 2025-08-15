@@ -6,14 +6,14 @@ function ContactUsButton() {
   const router = useRouter(); // Next.js navigation hook
 
   const handleClick = () => {
-    router.push("/getinvolved");
+    router.push("/contact-us");
   };
 
   return (
     <>
       <Button
         variant="primary"
-        onClick={handleClick} // Handles the on click event, i.e calls Handleclick
+        onClick={handleClick}
         style={{
           fontFamily: "Source Sans 3",
           fontWeight: "700",

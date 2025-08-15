@@ -1,10 +1,10 @@
 "use client";
 import NavBar from "../components/navbar";
-import BottomBar from "../components/bottomBar";
+import BottomBar from "../components/bottom-bar";
 import { motion } from "motion/react";
 import Link from "next/link";
-import MissionCard from "../components/missionCard";
-import StudentsCard from "../components/studentsCard";
+import MissionCard from "../components/mission-card";
+import StudentsCard from "../components/students-card";
 
 function AboutUs() {
   return (
@@ -22,7 +22,7 @@ function AboutUs() {
         content="Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community."
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://neoucincy.org/about" />
+      <meta property="og:url" content="https://neoucincy.org/about-us" />
       <meta
         property="og:image"
         content="https://neoucincy.org/images/logo.jpg"
@@ -70,7 +70,7 @@ function AboutUs() {
         }}
       >
         <title>Neo Initative</title>
-        <div className="subtitleText">Learn more about the Neo initiative.</div>
+        <div className="subtitleText">Learn more about the Neo Initiative.</div>
         <motion.div
           initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
           animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position

@@ -1,4 +1,4 @@
-import BottomButton from "./bottomButton";
+import BottomButton from "./back-to-top-button";
 
 function BottomBar() {
   return (

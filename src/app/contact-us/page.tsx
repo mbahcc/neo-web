@@ -1,7 +1,7 @@
 "use client";
 import NavBar from "../components/navbar";
-import BottomBar from "../components/bottomBar";
-import InputForm from "../components/inputForm";
+import BottomBar from "../components/bottom-bar";
+import InputForm from "../components/input-form";
 
 function ContactUs() {
   return (

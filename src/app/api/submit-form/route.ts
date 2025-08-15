@@ -2,8 +2,7 @@ import Airtable from "airtable";
 import { NextResponse, NextRequest } from "next/server";
 
 
-//route.ts
-// Helper function to get required env variable
+
 function getRequiredEnvVar(name: string): string {
   const value = process.env[name];
   if (!value) {
@@ -12,7 +11,7 @@ function getRequiredEnvVar(name: string): string {
   return value;
 }
 
-// Type-safe environment variable access
+
 const apiKey = getRequiredEnvVar('AIRTABLE_API_KEY');
 const baseId = getRequiredEnvVar('AIRTABLE_BASE_ID');
 
@@ -32,7 +31,7 @@ export async function POST(request: NextRequest) {
     const body: FormData = await request.json();
     const { name, email, desc, company } = body;
 
-     // Log the data being sent for debugging
+
     console.log('Submitting to Airtable:', { name, email, desc, company });
 
     const record = await base(tableName).create([

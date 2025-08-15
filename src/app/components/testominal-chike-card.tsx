@@ -41,7 +41,7 @@ function TestimonialChike() {
         <Card.Body>
           <Card.Title></Card.Title>
           <Card.Text>
-            The Neo initiative was one of the first few clubs I had joined when
+            The Neo Initiative was one of the first few clubs I had joined when
             I had initially enrolled at the University of Cincinnati as a
             freshman. Neo grew my analytical and problem-solving skills, giving
             me a real opportunity to apply many of the concepts I was learning
@@ -49,7 +49,7 @@ function TestimonialChike() {
             you were able to see your efforts result in tangible benefits for
             your clients, who themselves deal with an increasingly complex
             socioeconomic business climate. I quickly learned that Neo was more
-            than just a consulting organization–it was a community. Many of my
+            than just a consulting organization—it was a community. Many of my
             closest friends and colleagues have been through Neo. It became a
             space for students of all disciplines, determined by their desire to
             uplift minority-owned businesses, to grow and develop together.

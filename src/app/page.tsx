@@ -1,78 +1,19 @@
-"use client";
 import ColorSchemesExample from "./components/navbar";
-import ContactUsButton from "./components/contactusbutton";
-import CommunityCard from "./components/communityCard";
-import ImpactCard from "./components/impactCard";
-import DevelopmentCard from "./components/developmentCard";
-import TestimonialChike from "./components/testimonialChike";
-import TestimonialNahom from "./components/testimonialNahom";
-import ApplyTodayButton from "./components/applytodaybutton";
-import BottomBar from "./components/bottomBar";
+import ContactUsButton from "./components/contact-us-button";
+import CommunityCard from "./components/community-card";
+import ImpactCard from "./components/impact-card";
+import DevelopmentCard from "./components/development-card";
+import TestimonialChike from "./components/testominal-chike-card";
+import TestimonialNahom from "./components/testimonial-nahom-card";
+import ApplyTodayButton from "./components/application-button";
+import BottomBar from "./components/bottom-bar";
+import { HomePageMetadata } from "./page-metadata";
+
+export const metadata = HomePageMetadata;
 
 export default function Home() {
   return (
     <main>
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Neo Initiative | Let The Data Speak</title>
-      <meta
-        name="description"
-        content="More than just a club. The Neo Initiative is a student-led organization at UC providing data-driven consulting services to minority-owned local businesses in Cincinnati. Let the data speak."
-      />
-      <meta
-        property="og:title"
-        content="Neo Initiative | Student-Led Consulting for Minority-Owned Businesses"
-      />
-      <meta
-        property="og:description"
-        content="More than just a club. Student-led organization at UC providing data-driven consulting services to minority-owned local businesses in Cincinnati."
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://neoucincy.org" />
-      <meta
-        property="og:image"
-        content="https://neoucincy.org/images/logo.jpg"
-      />
-      <meta
-        property="og:image:alt"
-        content="Neo Initiative - Student-Led Consulting Organization"
-      />
-      <meta property="og:site_name" content="Neo Initiative" />
-      <meta property="og:locale" content="en_US" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta
-        name="twitter:title"
-        content="Neo Initiative | Student-Led Consulting for Minority-Owned Businesses"
-      />
-      <meta
-        name="twitter:description"
-        content="More than just a club. Student-led organization at UC providing data-driven consulting services to minority-owned local businesses in Cincinnati."
-      />
-      <meta
-        name="twitter:image"
-        content="https://neoucincy.org/images/logo.jpg"
-      />
-      <meta
-        name="twitter:image:alt"
-        content="Neo Initiative - Student-Led Consulting Organization"
-      />
-      <meta
-        name="keywords"
-        content="Neo Initiative, University of Cincinnati, UC consulting, minority business support, student consulting, Cincinnati startups, data-driven solutions, local businesses, community impact, student organization"
-      />
-      <meta name="author" content="Neo Initiative" />
-      <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://neoucincy.org" />
-      <meta name="contact" content="neoinitiativeuc@gmail.com" />
-      <meta
-        property="og:see_also"
-        content="https://www.linkedin.com/company/neo-initiative/"
-      />
-      <meta
-        property="og:see_also"
-        content="https://www.instagram.com/neoinitiative/"
-      />
-
       <ColorSchemesExample />
       <div className="subtitleText">More than just a club.</div>
       <div className="header"> Let the Data Speak. </div>
@@ -90,10 +31,6 @@ export default function Home() {
             local businesses.
           </div>
         </div>
-        {/*<div className="header" style={{ margin: "20px" }}>
-        {" "}
-        Student or Prospective Client?{" "}
-      </div>*/}
         <div className="homePageButtons">
           <ContactUsButton />
           <ApplyTodayButton />
