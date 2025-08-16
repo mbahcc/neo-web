@@ -1,26 +1,38 @@
-"use client";
 import Card from "react-bootstrap/Card";
 import { motion } from "motion/react";
 
-function ImpactCard() {
+function SpringOnboarding() {
   return (
     <motion.div
       initial={{ opacity: 0, y: 40 }} // Initial Position, invisible and start 20px down
       animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
-      transition={{ duration: 1.0, ease: "easeOut", type: "spring" }} // Transition length
+      transition={{
+        duration: 1.5,
+        ease: "easeOut",
+        type: "spring",
+        delay: 1.0,
+      }} // Transition length
     >
       <Card className="cardStyling">
-        <Card.Img variant="top" src="neo-pres.JPG" color="#2D2424" />
+        <Card.Img variant="top" src="team/org-photo.JPG" />
         <Card.Body>
-          <Card.Title color="#FFFFFF">Impact</Card.Title>
+          <Card.Title
+            style={{
+              fontFamily: "Source San 3",
+              fontWeight: "700",
+            }}
+          >
+            Spring Semester Onboarding
+          </Card.Title>
           <Card.Text
             style={{
               fontFamily: "Source San 3",
               fontWeight: "400",
+              color: "#9acbd6",
             }}
           >
-            Our analysts work dilligently with businesses in the community,
-            leveraging their business acumen to deliver real impact.
+            {" "}
+            February 9th, 2025
           </Card.Text>
         </Card.Body>
       </Card>
@@ -28,4 +40,4 @@ function ImpactCard() {
   );
 }
 
-export default ImpactCard;
+export default SpringOnboarding;

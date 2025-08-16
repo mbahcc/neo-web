@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 
 :root {
   --background: #ffffff;
@@ -40,7 +38,7 @@ background: #f9f9f7;
 /* Adjust the color of the navbar links. This adjust the color to be white  */
 
 .custom-navbar .nav-link {
-  font-size: var(--text-xl);
+  font-size: 1.25rem;
   color: white;
   font-family: Source Sans 3;
   font-weight: 700;
@@ -49,7 +47,7 @@ background: #f9f9f7;
 
 @media screen and (max-width: 1024px){
   .custom-navbar .nav-link {
-    font-size: var(--text-md);
+    font-size: 1rem;
 }
 }
 
@@ -67,40 +65,40 @@ background: #f9f9f7;
 }
 
 
-/* Styles header text 
-Font Size: 4xl (Tailwind CSS)
-Font color: black
-font: Source Sans 3
-font weight: 700 (bold)
-*/
+
 
 .header {
-  font-size: var(--text-6xl);
+  font-size: 3.75rem;
   font-family: Source Sans 3;
   font-weight: 700;
   margin-top: 125px;
   margin-left: 100px;
 }
 
+.home-section-header {
+  font-size: 3.75rem;
+  font-family: Source Sans 3;
+  font-weight: 700;
+  margin-top: 125px;
+  margin-left: 100px;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+
 
 @media screen and (max-width: 1024px){
   .header {
-    font-size: var(--text-4xl);
+    font-size: 2.25rem;
     margin-left: 0px;
     padding-left: 20px;
     font-family: Source Sans 3;
   }
 }
 
-/* Styles regular text
-Font size: 2xl (Tailwind CSS)
-Font color: black
-font: Source Sans 3
-font weight: 400
-*/
 
 .text {
-  font-size: var(--text-2xl);
+  font-size: 1.5rem;
   font-family: Source Sans 3;
   font-weight: 400;
   max-width: 850px;
@@ -115,13 +113,13 @@ font weight: 400
   .text{
     margin-left: 0px;
     padding-left: 20px;
-    font-size: var(--text-xl);
+    font-size: 1.25rem;
     font-family: Source Sans 3;
   
   }
 }
   
-.homePageButtons {
+.home-page-buttons {
    display: flex;
   justify-content: left;
   align-items: center;
@@ -131,14 +129,14 @@ font weight: 400
 }
 
 @media screen and (max-width: 1024px){
-  .homePageButtons{
+  .home-page-buttons{
     margin-left: 20px;
     padding-left: 0px;
   }
 }
 
 .bottomBarText {
-  font-size: var(--text-lg);
+  font-size: 1.125rem;
   font-family: Source Sans 3;
   font-weight: 400;
   max-width: 850px;
@@ -146,7 +144,7 @@ font weight: 400
 }
 
 .inputFormText {
-  font-size: var(--text-xl);
+  font-size: 1.25rem;
   font-family: Source Sans 3;
   font-weight: 700;
 }
@@ -188,7 +186,7 @@ font weight: 400
 }
 
 .subtitleText {
-  font-size: var(--text-lg);
+  font-size: 1.125rem;
   color: #6b6b6b;
   font-family: Source Sans 3;
   font-weight: 400;
@@ -204,7 +202,7 @@ font weight: 400
 @media screen and (max-width: 1024px){
   .subtitleText{
     margin-left: 0px;
-    font-size: var(--text-md);
+    font-size: 1rem;
     padding-left: 20px
   }
 }
@@ -291,13 +289,13 @@ font weight: 400
     .aboutText{
       flex-direction: column;
       text-align: left;
-      font-size: var(--text-xl);
+      font-size: 1.25rem;
       padding-right: 10px;
     }
   }
 
   .aboutTextParagraph{
-  font-size: var(--text-2xl);
+  font-size: 1.5rem;
   font-family: Source Sans 3;
   font-weight: 400;
   max-width: 850px;
@@ -319,7 +317,7 @@ font weight: 400
     margin-left: 0px;
     padding-left: 20px;
     padding-right: 0;
-    font-size: var(--text-xl);
+    font-size: 1.25rem;
     font-family: Source Sans 3;
     padding-top: 0px;
   
@@ -352,3 +350,130 @@ font weight: 400
     
   }
 }
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content {
+  display: flex;
+}
+
+.cards-section {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  padding: 50px;
+}
+
+.section-header {
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.testimonials-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 50px;
+  padding: 50px;
+  margin: 10px auto;
+}
+
+.bottom-section {
+  margin-top: 150px;
+}
+
+.home-cards-section{
+margin-top: 20px;
+          align-items:center;
+          justify-content: center;
+          display: flex;
+          width: 100%;
+          gap: 40px;
+          padding: 50px;
+}
+
+@media screen and (max-width: 1024px){
+    .home-cards-section {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+  }
+
+.home-testimonial-container{
+
+   width: clamp(5rem, -22.857rem + 74.286vw, 44rem);
+   display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 10px;
+          gap: 50px;
+          padding: 50px;
+          margin: 10px auto;
+
+}
+
+ @media screen and (max-width: 1024px){
+    .home-testimonial-container {
+      width: 22rem;
+    }
+  }
+
+  .event-page-format{
+    overflow-y: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .event-card-section{
+    gap: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    margin: 10px auto;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 1024px){
+    .event-card-section {
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+    }
+  }
+
+  .event-text{
+      font-size: 1.5rem;
+  font-family: Source Sans 3;
+  font-weight: 400;
+  max-width: 850px;
+  word-wrap: break-word;
+  margin-left: 100px;
+  white-space: normal;
+  margin-top: 75px;
+  margin: 10px auto;
+  padding: 20px;
+  }
+
+  @media screen and (max-width: 1024px){
+  .event-text{
+    margin-left: 0px;
+    padding-left: 20px;
+    font-size: 1.25rem;
+    font-family: Source Sans 3;
+  
+  }
+}
+
+
+ 

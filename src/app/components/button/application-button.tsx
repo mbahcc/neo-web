@@ -3,10 +3,7 @@ import Button from "react-bootstrap/Button";
 
 function ApplyTodayButton() {
   const handleClick = () => {
-    window.open(
-      "https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=bC4i9cZf60iPA3PbGCA7Yz3jtH7v2yxNtQVQwdu0mfNUM0lURTgzVzUwMjBUUlNVTEZITEJPR0tONi4u",
-      "_blank"
-    );
+    window.open("https://forms.office.com/r/8suBvDvY2y", "_blank");
   };
 
   return (
@@ -19,7 +16,8 @@ function ApplyTodayButton() {
           fontWeight: "700",
           backgroundColor: "#9acbd6",
           borderColor: "#9acbd6",
-          boxShadow: "var(--shadow-lg)",
+          boxShadow:
+            "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
           transition: "all 0.2 ease-in-out",
           height: "44px",
           padding: "0 0.75rem",
@@ -31,7 +29,7 @@ function ApplyTodayButton() {
           e.currentTarget.style.transform = "translateY(-1px)";
         }}
         onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = "#7ab8c4";
+          e.currentTarget.style.backgroundColor = "#9acbd6";
           e.currentTarget.style.transform = "translateY(0)";
         }}
       >

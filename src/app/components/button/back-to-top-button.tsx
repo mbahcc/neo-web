@@ -18,36 +18,33 @@ function BottomButton() {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 5 }} // Initial Position, invisible and start 20px down
-      whileInView={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
+      initial={{ opacity: 0, y: 5 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{
         duration: 1.5,
         ease: "easeOut",
         type: "spring",
         delay: 0.5,
-      }} // Transition length
+      }}
     >
       <Button
         variant="primary"
-        onClick={handleClick} // Handles the on click event, i.e calls Handleclick
+        onClick={handleClick}
         style={{
           fontFamily: "Source Sans 3",
+          boxShadow:
+            "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
           fontWeight: "700",
-          backgroundColor: "#9acbd6",
+          backgroundColor: "#a8d4de",
           borderColor: "#9acbd6",
-          boxShadow: "var(--shadow-lg)",
-          transition: "all 0.2 ease-in-out",
-          height: "25px",
           padding: "0 0.75rem",
-          borderRadius: "0px",
         }}
-        // Hover/focus effects
         onMouseEnter={(e) => {
           e.currentTarget.style.backgroundColor = "#5ca3b2";
           e.currentTarget.style.transform = "translateY(-1px)";
         }}
         onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = "#7ab8c4";
+          e.currentTarget.style.backgroundColor = "#a8d4de";
           e.currentTarget.style.transform = "translateY(0)";
         }}
       >

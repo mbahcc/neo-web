@@ -2,31 +2,29 @@
 import Card from "react-bootstrap/Card";
 import { motion } from "motion/react";
 
-function CommunityCard() {
+function ImpactCard() {
   return (
     <motion.div
       initial={{ opacity: 0, y: 40 }} // Initial Position, invisible and start 20px down
       animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
-      transition={{
-        duration: 1.0,
-        ease: "easeOut",
-        type: "spring",
-        delay: 1.0,
-      }} // Transition length
+      transition={{ duration: 1.0, ease: "easeOut", type: "spring" }} // Transition length
     >
       <Card className="cardStyling">
-        <Card.Img variant="top" src="neo-demo.JPG" />
+        <Card.Img
+          variant="top"
+          src="team/final-presentation.JPG"
+          color="#2D2424"
+        />
         <Card.Body>
-          <Card.Title>Development</Card.Title>
+          <Card.Title color="#FFFFFF">Impact</Card.Title>
           <Card.Text
             style={{
               fontFamily: "Source San 3",
               fontWeight: "400",
             }}
           >
-            {" "}
-            Our analysts and alum have landed roles at companies such as Google,
-            PwC, EY and others leveraging their neo experience.
+            Our analysts work dilligently with businesses in the community,
+            leveraging their business acumen to deliver real impact.
           </Card.Text>
         </Card.Body>
       </Card>
@@ -34,4 +32,4 @@ function CommunityCard() {
   );
 }
 
-export default CommunityCard;
+export default ImpactCard;

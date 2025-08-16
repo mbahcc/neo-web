@@ -1,4 +1,4 @@
-import BottomButton from "./back-to-top-button";
+import BottomButton from "./button/back-to-top-button";
 
 function BottomBar() {
   return (
@@ -23,16 +23,16 @@ function BottomBar() {
         }}
       >
         <a href="https://www.instagram.com/neoinitiative/" target="_blank">
-          <img src="instagram.svg" />{" "}
+          <img src="icons/instagram-icon.svg" />{" "}
         </a>
         <a
           href="https://www.linkedin.com/company/neo-initiative/"
           target="_blank"
         >
-          <img src="linkedin.svg" />{" "}
+          <img src="icons/linkedin-icon.svg" />{" "}
         </a>
         <a href="mailto:neoinitiativeuc@gmail.com" target="_blank">
-          <img src="envelope-at.svg" />
+          <img src="icons/email-icon.svg" />
         </a>
       </div>
       <div style={{ marginRight: "50px" }}>

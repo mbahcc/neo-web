@@ -1,69 +1,31 @@
 "use client";
 import NavBar from "../components/navbar";
 import { motion } from "motion/react";
-import SpringOnboarding from "../components/event-spring-onboarding-card";
-import NeoJeopardyCard from "../components/event-neo-jeopardy-card";
-import FinalPresentationCard from "../components/event-final-pres-card";
+import SpringOnboarding from "../components/card/event-spring-onboarding-card";
+import NeoJeopardyCard from "../components/card/event-neo-jeopardy-card";
+import FinalPresentationCard from "../components/card/event-final-pres-card";
 import BottomBar from "../components/bottom-bar";
 
 function Events() {
   return (
     <main>
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Neo Initiative</title>
-      <meta
-        name="description"
-        content="Discover how Neo Initiative builds community through engaging events. View our past events including Spring Onboarding, Neo Jeopardy, and Final Presentations. Check our calendar for upcoming events."
-      />
-      <meta property="og:title" content="Neo Initiative | Events" />
-      <meta
-        property="og:description"
-        content="See how we build community through engaging events. View past events and check our calendar for upcoming activities."
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://neoucincy.org/events" />
-      <meta
-        property="og:image"
-        content="https://neoucincy.org/images/logo.jpg"
-      />
-      <meta property="og:image:alt" content="Neo Initiative Events" />
-      <meta property="og:site_name" content="Neo Initiative" />
-
-      <meta
-        name="keywords"
-        content="Neo Initiative, events, community building, Spring Onboarding, Neo Jeopardy, presentations, calendar, upcoming events"
-      />
-      <meta name="author" content="Neo Initiative" />
-      <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://neoucincy.org/events" />
-
-      <div
-        style={{
-          overflowY: "hidden",
-          minHeight: "100vh",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
-        }}
-      >
+      <div className="event-page-format">
         <NavBar />
         <div className="subtitleText">See how we build community.</div>
         <motion.div
-          initial={{ opacity: 0, y: 40 }} // Initial Position, invisible and start 20px down
-          animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{
             duration: 1.5,
             ease: "easeOut",
             type: "spring",
             delay: 0.5,
-          }} // Transition length
+          }}
         >
           <div
             className="header"
             style={{
               marginTop: "100px",
-
               textAlign: "left",
               display: "flex",
             }}
@@ -71,39 +33,21 @@ function Events() {
             Past Events
           </div>
         </motion.div>
-        <div
-          style={{
-            gap: "50px",
-            marginLeft: "100px",
-            marginTop: "20px",
-            display: "flex",
-            margin: "10px auto",
-            padding: "5px",
-          }}
-          className="cardCss"
-        >
+        <div className="event-card-section">
           <SpringOnboarding />
           <NeoJeopardyCard />
           <FinalPresentationCard />
         </div>
-        <div
-          className="text"
-          style={{
-            marginTop: "75px",
-            marginLeft: "100px",
-            margin: "10px auto",
-            padding: "20px",
-          }}
-        >
+        <div className="event-text">
           <motion.div
-            initial={{ opacity: 0, y: 40 }} // Initial Position, invisible and start 20px down
-            animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{
               duration: 1.5,
               ease: "easeOut",
               type: "spring",
               delay: 1.5,
-            }} // Transition length
+            }}
           >
             Interested in our upcoming events? Check our calendar{" "}
             <a

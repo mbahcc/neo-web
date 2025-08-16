@@ -15,7 +15,7 @@ function NavBar() {
             className="navbar-links"
           >
             <Navbar.Brand href="/">
-              <img src="logo.jpg" className="navbar-icon"></img>
+              <img src="logos/logo.jpg" className="navbar-icon"></img>
             </Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/events">Events</Nav.Link>

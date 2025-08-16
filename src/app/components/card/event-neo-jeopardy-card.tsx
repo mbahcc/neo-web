@@ -11,10 +11,10 @@ function NeoJeopardyCard() {
         ease: "easeOut",
         type: "spring",
         delay: 1.0,
-      }} // Transition length
+      }}
     >
       <Card className="cardStyling">
-        <Card.Img variant="top" src="neojeopardy.JPG" />
+        <Card.Img variant="top" src="team/team-jeopardy-event.JPG" />
         <Card.Body>
           <Card.Title
             style={{

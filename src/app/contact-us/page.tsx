@@ -6,44 +6,6 @@ import InputForm from "../components/input-form";
 function ContactUs() {
   return (
     <main>
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Neo Initiative</title>
-      <meta
-        name="description"
-        content="Learn how to get involved with Neo Initiative. Contact us to discover opportunities for clients and explore how we can work together to build community."
-      />
-      <meta property="og:title" content="Neo Initiative" />
-      <meta
-        property="og:description"
-        content="Learn how to get involved with Neo Initiative. Contact us to discover opportunities for clients and explore collaboration possibilities."
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://neoucincy.org/contact-us" />
-      <meta
-        property="og:image"
-        content="https://neoucincy.org/images/logo.jpg"
-      />
-      <meta
-        property="og:image:alt"
-        content="Neo Initiative Contact Information"
-      />
-      <meta property="og:site_name" content="Neo Initiative" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Neo Initiative" />
-      <meta
-        name="twitter:description"
-        content="Learn how to get involved with Neo Initiative. Contact us to discover opportunities for clients and collaboration."
-      />
-      <meta
-        name="twitter:image"
-        content="https://neoucincy.org/images/logo.jpg"
-      />
-      <meta
-        name="twitter:image:alt"
-        content="Neo Initiative Contact Information"
-      />
-
       <div
         style={{
           overflowY: "hidden",

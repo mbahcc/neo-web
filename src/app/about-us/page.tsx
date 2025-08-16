@@ -3,8 +3,8 @@ import NavBar from "../components/navbar";
 import BottomBar from "../components/bottom-bar";
 import { motion } from "motion/react";
 import Link from "next/link";
-import MissionCard from "../components/mission-card";
-import StudentsCard from "../components/students-card";
+import MissionCard from "../components/card/mission-card";
+import StudentsCard from "../components/card/students-card";
 
 function AboutUs() {
   return (

@@ -19,7 +19,8 @@ function ContactUsButton() {
           fontWeight: "700",
           backgroundColor: "#9acbd6",
           borderColor: "#9acbd6",
-          boxShadow: "var(--shadow-lg)",
+          boxShadow:
+            "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
           transition: "all 0.2 ease-in-out",
           height: "44px",
           padding: "0 0.75rem",
@@ -31,7 +32,7 @@ function ContactUsButton() {
           e.currentTarget.style.transform = "translateY(-1px)";
         }}
         onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = "#7ab8c4";
+          e.currentTarget.style.backgroundColor = "#9acbd6";
           e.currentTarget.style.transform = "translateY(0)";
         }}
       >
