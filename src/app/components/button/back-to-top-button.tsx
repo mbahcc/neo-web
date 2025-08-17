@@ -1,18 +1,49 @@
-"use client"; // For client-side hooks
+"use client";
 import Button from "react-bootstrap/Button";
 import { useRouter } from "next/navigation";
 import { motion } from "motion/react";
 import { usePathname } from "next/navigation";
+import { useState, useEffect } from "react";
 
 function BottomButton() {
-  const router = useRouter(); // Next.js navigation hook
+  const router = useRouter();
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+  const [isScrollable, setIsScrollable] = useState(false);
 
   const handleClick = () => {
     router.push(window.location.pathname);
   };
 
+  useEffect(() => {
+    const checkConditions = () => {
+      const screenWidth = window.innerWidth;
+      const documentHeight = document.documentElement.scrollHeight;
+      const windowHeight = window.innerHeight;
+
+      setIsLargeScreen(screenWidth >= 1024);
+      setIsScrollable(documentHeight > windowHeight);
+    };
+
+    checkConditions();
+    window.addEventListener("resize", checkConditions);
+    window.addEventListener("scroll", checkConditions);
+
+    return () => {
+      window.removeEventListener("resize", checkConditions);
+      window.removeEventListener("scroll", checkConditions);
+    };
+  }, []);
+
   const pathname = usePathname();
-  if (!(pathname == "/" || pathname == "/aboutus")) {
+  if (
+    isLargeScreen &&
+    !isScrollable &&
+    !(pathname === "/" || pathname === "/about-us")
+  ) {
+    return null;
+  }
+
+  if (!isScrollable) {
     return null;
   }
 
@@ -20,6 +51,7 @@ function BottomButton() {
     <motion.div
       initial={{ opacity: 0, y: 5 }}
       whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
       transition={{
         duration: 1.5,
         ease: "easeOut",

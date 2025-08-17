@@ -1,4 +1,4 @@
-"use client"; // For client-side hooks
+"use client";
 import Button from "react-bootstrap/Button";
 
 function ApplyTodayButton() {
@@ -10,7 +10,7 @@ function ApplyTodayButton() {
     <>
       <Button
         variant="primary"
-        onClick={handleClick} // Handles the on click event, i.e calls Handleclick
+        onClick={handleClick}
         style={{
           fontFamily: "Source Sans 3",
           fontWeight: "700",
@@ -23,7 +23,6 @@ function ApplyTodayButton() {
           padding: "0 0.75rem",
           borderRadius: "0px",
         }}
-        // Hover/focus effects
         onMouseEnter={(e) => {
           e.currentTarget.style.backgroundColor = "#5ca3b2";
           e.currentTarget.style.transform = "translateY(-1px)";

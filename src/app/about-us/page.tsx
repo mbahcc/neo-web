@@ -17,7 +17,9 @@ function AboutUs() {
         }}
       >
         <title>Neo Initative</title>
-        <div className="subtitleText">Learn more about the Neo Initiative.</div>
+        <div className="event-subtitle-text">
+          Learn more about the Neo Initiative.
+        </div>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -28,7 +30,7 @@ function AboutUs() {
             delay: 0.5,
           }}
         >
-          <div className="header">About Neo.</div>
+          <div className="event-header">About Neo.</div>
         </motion.div>
 
         <motion.div

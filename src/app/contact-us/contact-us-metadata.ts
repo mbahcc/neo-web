@@ -27,5 +27,11 @@ export const ContactPageMetadata: Metadata = {
       }
     ]
   },
-  viewport: "width=device-width, initial-scale=1.0"
 };
+
+export function generateViewport() {
+  return {
+    width: 'device-width',
+    initialScale: 1,
+  }
+}

@@ -21,8 +21,11 @@ title: "Neo Initiative | Events",
     ],
     siteName: "Neo Initiative"
   },
-viewport: {
-    width: 1,
-  },
+}
 
+export function generateViewport() {
+  return {
+    width: 'device-width',
+    initialScale: 1,
+  }
 }

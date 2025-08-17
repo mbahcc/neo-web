@@ -2,26 +2,8 @@ import BottomButton from "./button/back-to-top-button";
 
 function BottomBar() {
   return (
-    <div
-      style={{
-        height: "50px",
-        width: "100vw",
-        backgroundColor: "#9acbd6",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        flexDirection: "row",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          marginLeft: "20px",
-          gap: "10px",
-          alignItems: "center",
-        }}
-      >
+    <div className="bottom-bar-container">
+      <div className="bottom-bar-format">
         <a href="https://www.instagram.com/neoinitiative/" target="_blank">
           <img src="icons/instagram-icon.svg" />{" "}
         </a>

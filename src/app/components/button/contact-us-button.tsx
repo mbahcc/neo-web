@@ -1,9 +1,9 @@
-"use client"; // For client-side hooks
+"use client";
 import Button from "react-bootstrap/Button";
 import { useRouter } from "next/navigation";
 
 function ContactUsButton() {
-  const router = useRouter(); // Next.js navigation hook
+  const router = useRouter();
 
   const handleClick = () => {
     router.push("/contact-us");
@@ -26,7 +26,6 @@ function ContactUsButton() {
           padding: "0 0.75rem",
           borderRadius: "0px",
         }}
-        // Hover/focus effects
         onMouseEnter={(e) => {
           e.currentTarget.style.backgroundColor = "#5ca3b2";
           e.currentTarget.style.transform = "translateY(-1px)";

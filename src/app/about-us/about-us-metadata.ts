@@ -37,7 +37,6 @@ export const AboutPageMetadata: Metadata = {
       },
     ],
   },
-  viewport: "width=device-width, initial-scale=1.0",
   other: {
     contact: "neoinitiativeuc@gmail.com",
     "og:see_also": [
@@ -46,3 +45,10 @@ export const AboutPageMetadata: Metadata = {
     ],
   },
 };
+
+export function generateViewport() {
+  return {
+    width: 'device-width',
+    initialScale: 1,
+  }
+}
