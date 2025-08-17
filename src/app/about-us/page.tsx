@@ -9,59 +9,6 @@ import StudentsCard from "../components/card/students-card";
 function AboutUs() {
   return (
     <main>
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Neo Initiative</title>
-      <meta
-        name="description"
-        content="Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community. Get in touch through LinkedIn, Instagram, or apply to become an analyst."
-      />
-      <meta property="og:title" content="Neo Initiative" />
-      <meta
-        property="og:description"
-        content="Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community."
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://neoucincy.org/about-us" />
-      <meta
-        property="og:image"
-        content="https://neoucincy.org/images/logo.jpg"
-      />
-      <meta
-        property="og:image:alt"
-        content="Neo Initiative - Our Mission and Students"
-      />
-      <meta property="og:site_name" content="Neo Initiative" />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Neo Initiative | About Us" />
-      <meta
-        name="twitter:description"
-        content="Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community."
-      />
-      <meta
-        name="twitter:image"
-        content="https://neoucincy.org/images/logo.jpg"
-      />
-      <meta
-        name="twitter:image:alt"
-        content="Neo Initiative About Us - Our Mission and Students"
-      />
-      <meta
-        name="keywords"
-        content="Neo Initiative, about us, mission, students, analysts, community building, UC, university, LinkedIn, Instagram, careers, application"
-      />
-      <meta name="author" content="Neo Initiative" />
-      <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://neoucincy.org/about" />
-      <meta
-        property="og:see_also"
-        content="https://www.linkedin.com/company/neo-initiative/"
-      />
-      <meta
-        property="og:see_also"
-        content="https://www.instagram.com/neoinitiative/"
-      />
-      <meta name="contact" content="neoinitiativeuc@gmail.com" />
       <NavBar />
       <div
         style={{
@@ -72,112 +19,63 @@ function AboutUs() {
         <title>Neo Initative</title>
         <div className="subtitleText">Learn more about the Neo Initiative.</div>
         <motion.div
-          initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
-          animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{
             duration: 1.0,
             ease: "easeOut",
             type: "spring",
             delay: 0.5,
-          }} // Transition length
+          }}
         >
           <div className="header">About Neo.</div>
         </motion.div>
 
-        <div
-          style={{
-            display: "flex",
-            marginTop: "80px",
-            paddingBottom: "125px",
-            gap: "100px",
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 1.0,
+            ease: "easeOut",
+            type: "spring",
+            delay: 1.0,
           }}
-          className="aboutText"
         >
-          <motion.div
-            initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
-            animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
-            transition={{
-              duration: 1.0,
-              ease: "easeOut",
-              type: "spring",
-              delay: 1.0,
-            }} // Transition length
-          >
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                marginTop: "10px",
-                gap: "50px",
-                padding: "50px",
-                margin: "10px auto",
-              }}
-              className="testimonialContainer"
-            >
-              <MissionCard />
-              <StudentsCard />
-            </div>
-          </motion.div>
-        </div>
+          <div className="about-us-testimonial-container">
+            <MissionCard />
+            <StudentsCard />
+          </div>
+        </motion.div>
 
-        <div
-          style={{
-            backgroundColor: "#FAFAFA",
-            marginTop: "0px",
-            paddingTop: "0px",
-            paddingBottom: "150px",
-            marginBottom: "-200px",
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "10px",
-            }}
-          >
-            <div
-              className="header"
-              style={{
-                marginTop: "80px" /* Override top margin */,
-                justifyContent: "center",
-                textAlign: "center",
-              }}
-            >
+        <div className="get-in-touch-container">
+          <div className="get-in-touch-format">
+            <div className="get-in-touch-header">
               <motion.div
-                initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
+                initial={{ opacity: 0, y: 20 }}
                 viewport={{ once: true }}
-                whileInView={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
+                whileInView={{ opacity: 1, y: 0 }}
                 transition={{
                   duration: 1.5,
                   ease: "easeOut",
                   type: "spring",
                   delay: 0.5,
-                }} // Transition length
+                }}
               >
                 Get In Touch
               </motion.div>
             </div>
 
-            <div
-              className="text"
-              style={{
-                justifyContent: "center",
-                alignSelf: "center",
-                paddingTop: "40px",
-              }}
-            >
+            <div className="get-in-touch-text">
               <motion.div
-                initial={{ opacity: 0, y: 20 }} // Initial Position, invisible and start 20px down
-                whileInView={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{
                   duration: 1.5,
                   ease: "easeOut",
                   type: "spring",
                   delay: 1.0,
-                }} // Transition length
+                }}
               >
                 We encourage everyone to get in contact with us! Feel free to
                 connect with our{" "}

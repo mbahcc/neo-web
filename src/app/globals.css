@@ -424,6 +424,7 @@ margin-top: 20px;
  @media screen and (max-width: 1024px){
     .home-testimonial-container {
       width: 22rem;
+      flex-direction: column;
     }
   }
 
@@ -475,5 +476,93 @@ margin-top: 20px;
   }
 }
 
+.contact-us-subtitle-text{
+  font-size: 1.125rem;
+  color: #6b6b6b;
+  font-family: Source Sans 3;
+  font-weight: 400;
+  max-width: 950px;
+  word-wrap: break-word;
+  position: absolute;
+  top: 175px;
+  text-align: left;
+  display: flex;
+  align-self: center;
+}
 
- 
+.about-us-testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+  padding: 50px;
+  margin-bottom: 190px;
+}
+
+@media screen and (max-width: 1024px){
+    .about-us-testimonial-container {
+      flex-direction: column;
+    }
+  }
+
+.get-in-touch-container {
+
+  background-color: #FAFAFA;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 150px;
+  margin-bottom: -200px;
+}
+
+.get-in-touch-format{
+display: flex;
+              flex-direction: column;
+              gap: 10px;
+
+}
+
+.get-in-touch-header {
+
+  font-size: 3.75rem;
+  font-family: Source Sans 3;
+  font-weight: 700;
+  margin-left: 100px;
+  margin-top: 80px;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+  .get-in-touch-header {
+    font-size: 2.25rem;
+    margin-left: 0px;
+    padding-left: 20px;
+    font-family: Source Sans 3;
+  }
+}
+
+.get-in-touch-text{
+
+   justify-content: center;
+   align-self: center;
+   padding-top: 40px;
+   font-size: 1.5rem;
+   font-family: Source Sans 3;
+   font-weight: 400;
+  max-width: 850px;
+  word-wrap: break-word;
+  margin: 5px;
+  margin-left: 100px;
+  white-space: "normal";
+}
+
+@media screen and (max-width: 1024px){
+  .get-in-touch-text{
+    margin-left: 0px;
+    padding-left: 20px;
+    font-size: 1.25rem;
+    font-family: Source Sans 3;
+  
+  }
+}

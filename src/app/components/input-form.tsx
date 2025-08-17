@@ -39,7 +39,7 @@ function InputForm() {
           name: formData.name,
           email: formData.email,
           desc: formData.desc,
-          company: formData.company, // Add company field
+          company: formData.company,
         }),
       });
 
@@ -47,7 +47,7 @@ function InputForm() {
 
       if (response.ok) {
         setSubmitStatus("success");
-        setFormData({ company: "", name: "", email: "", desc: "" }); // Reset form
+        setFormData({ company: "", name: "", email: "", desc: "" });
       } else {
         setSubmitStatus("error");
         console.error("Form submission error:", result.message);
@@ -62,14 +62,12 @@ function InputForm() {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 40 }} // Initial Position, invisible and start 20px down
-      animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
-      transition={{ duration: 1.5, ease: "easeOut", type: "spring" }} // Transition length
+      initial={{ opacity: 0, y: 40 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1.5, ease: "easeOut", type: "spring" }}
     >
       <form onSubmit={handleSubmit}>
-        <div
-          className="inputFormContainer" /*"w-300 h-140 pt-5 pr-5 pl-5 pb-3 border border-grey-200 bg-gray-50 shadow-xl rounded-md"*/
-        >
+        <div className="inputFormContainer">
           <div
             style={{
               display: "flex",
@@ -88,7 +86,7 @@ function InputForm() {
               <div className="inputFormText"> Company Name </div>
               <input
                 name="company"
-                className="formInput" /*"w-280 ht-12 pt-2 pb-2 border border-gray-400 rounded text-xl pl-2 pr-2"*/
+                className="formInput"
                 value={formData.company}
                 onChange={handleChange}
                 required
@@ -103,7 +101,7 @@ function InputForm() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="formInput" /*"w-280 ht-12 pt-2 pb-2 border border-gray-400 m-64 rounded text-xl pl-2 pr-2"*/
+                className="formInput"
               />
             </div>
             <div
@@ -120,7 +118,7 @@ function InputForm() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="formInput" /*"w-280 ht-12 pt-2 border border-gray-400 m-64 rounded text-xl pl-2 pr-2 pb-2"*/
+                className="formInput"
               />
             </div>
             <div
@@ -137,7 +135,7 @@ function InputForm() {
                 onChange={handleChange}
                 required
                 placeholder="Briefly describe your company and potential interest in working with neo"
-                className="formTextArea" /*"w-280 h-36  pt-3 border border-gray-400 m-64 rounded text-xl pl-2 pr-2"*/
+                className="formTextArea"
               />
             </div>
             <Button
@@ -156,7 +154,6 @@ function InputForm() {
                 borderRadius: "0px",
                 cursor: isSubmitting ? "not-allowed" : "pointer",
               }}
-              // Hover/focus effects
               onMouseEnter={(e) => {
                 if (!isSubmitting) {
                   e.currentTarget.style.backgroundColor = "#5ca3b2";

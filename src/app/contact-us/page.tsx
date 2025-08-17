@@ -17,21 +17,7 @@ function ContactUs() {
       >
         <title>Neo Initiative</title>
         <NavBar />
-        <div
-          style={{
-            fontSize: "var(--text-lg)",
-            color: "#6b6b6b",
-            fontFamily: "Source Sans 3",
-            fontWeight: "400",
-            maxWidth: "950px",
-            wordWrap: "break-word",
-            position: "absolute",
-            top: "175px",
-            textAlign: "left",
-            display: "flex",
-            alignSelf: "center",
-          }}
-        >
+        <div className="contact-us-subtitle-text">
           Learn how to get involved for clients.
         </div>
         <div
