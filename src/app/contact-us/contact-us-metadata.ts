@@ -4,7 +4,7 @@ export const ContactPageMetadata: Metadata = {
   title: "Neo Initiative",
   description: "Learn how to get involved with Neo Initiative. Contact us to discover opportunities for clients and explore how we can work together to build community.",
   openGraph: {
-    title: "Neo Initiative",
+    title: "Neo Initiative | Contact Us",
     description: "Learn how to get involved with Neo Initiative. Contact us to discover opportunities for clients and explore collaboration possibilities.",
     type: "website",
     url: "https://neoucincy.org/contact-us",
@@ -18,7 +18,7 @@ export const ContactPageMetadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Neo Initiative",
+    title: "Neo Initiative | Contact Us",
     description: "Learn how to get involved with Neo Initiative. Contact us to discover opportunities for clients and collaboration.",
     images: [
       {
