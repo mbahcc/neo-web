@@ -9,15 +9,11 @@ export default function sitemap() {
       lastModified: new Date(),
     },
     {
-      url: "https://neoucincy.org/getinvolved",
+      url: "https://neoucincy.org/contact-us",
       lastModified: new Date(),
     },
     {
-      url: "https://neoucincy.org/events",
-      lastModified: new Date(),
-    },
-    {
-      url: "https://neoucincy.org/aboutus",
+      url: "https://neoucincy.org/about-us",
       lastModified: new Date(),
     },
   ];
