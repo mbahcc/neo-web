@@ -9,7 +9,7 @@ title: "Neo Initiative | Events",
     canonical: "https://neoucincy.org/events"
   },
   openGraph: {
-    title: "Neo Initiative | Events",
+    title: "Neo Initiative",
     description: "See how we build community through engaging events. View past events and check our calendar for upcoming activities.",
     type: "website",
     url: "https://neoucincy.org/events",

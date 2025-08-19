@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const AboutPageMetadata: Metadata = {
-  title: "Neo Initiative",
+  title: "Neo Initiative | About Us",
   description:
     "Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community. Get in touch through LinkedIn, Instagram, or apply to become an analyst.",
   keywords:
@@ -12,7 +12,7 @@ export const AboutPageMetadata: Metadata = {
     canonical: "https://neoucincy.org/about",
   },
   openGraph: {
-    title: "Neo Initiative | About Us",
+    title: "Neo Initiative",
     description:
       "Learn more about the Neo Initiative. Discover our mission, meet our students, and find out how we're building community.",
     type: "website",
