@@ -17,7 +17,9 @@ function CommunityCard() {
       <Card className="cardStyling">
         <Card.Img variant="top" src="team/team-onboarding.JPG" />
         <Card.Body>
-          <Card.Title>Development</Card.Title>
+          <Card.Title style={{
+              fontWeight: "700",
+            }}>Development</Card.Title>
           <Card.Text
             style={{
               fontFamily: "Source San 3",

@@ -17,15 +17,16 @@ function DevelopmentCard() {
       <Card className="cardStyling">
         <Card.Img variant="top" src="team/team-gen-body.JPG" />
         <Card.Body>
-          <Card.Title>Community</Card.Title>
+          <Card.Title style={{
+              fontWeight: "700",
+            }}>Community</Card.Title>
           <Card.Text
             style={{
-              fontFamily: "Source San 3",
               fontWeight: "400",
             }}
           >
-            We frequently host events to foster community between the general
-            university poplace, neo analysts, and our clients.
+            We frequently host both professional and social events to foster community between the general
+            university populace, neo analysts, and our clients.
           </Card.Text>
         </Card.Body>
       </Card>

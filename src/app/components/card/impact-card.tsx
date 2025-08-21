@@ -16,7 +16,9 @@ function ImpactCard() {
           color="#2D2424"
         />
         <Card.Body>
-          <Card.Title color="#FFFFFF">Impact</Card.Title>
+          <Card.Title color="#FFFFFF" style={{
+              fontWeight: "700",
+            }}>Impact</Card.Title>
           <Card.Text
             style={{
               fontFamily: "Source San 3",
