@@ -59,6 +59,10 @@ background: #f9f9f7;
   }
 }
 
+.contact-overflow-hidden {
+  overflow-x: hidden !important;
+}
+
 /* Custom NavBar color that incorporates neo org colors */
 
 .custom-navbar {
@@ -245,6 +249,14 @@ background: #f9f9f7;
     padding-left: 20px
   }
 }
+
+
+@media screen and (max-width: 1024px){
+.mobile-margin{
+  margin-top: 50px;
+  }
+}
+
 
 .testimonialCard {
     width: clamp(5rem, -22.857rem + 74.286vw, 44rem)
@@ -675,3 +687,114 @@ display: flex;
     justify-content: center;
   }
 }
+
+/* For the 404 Page */ 
+
+.error-top-bar{
+  width: 100vw;
+  height: 50px;
+  flex-shrink: 0;
+background: #9ACBD6;
+}
+
+.error-logo{
+width: 74px;
+height: 74px;
+flex-shrink: 0;
+aspect-ratio: 1/1;
+border-radius: 50px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.error-message-container{
+display: flex;
+width: 100vw;
+height: 500px;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+}
+
+.error-message-header{
+color: #000;
+margin-top: 150px;
+text-align: center;
+font-family: "Source Sans 3";
+font-size: 8rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+@media screen and (max-width: 1024px){
+  .error-message-header {
+    font-size: 6rem;
+    margin-top: 100px;
+
+  }
+}
+
+.error-message-subtext{
+color: #000;
+text-align: center;
+font-family: "Source Sans 3";
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+}
+
+@media screen and (max-width: 1024px){
+  .error-message-subtext {
+    font-size: 1.25rem;
+
+  }
+}
+
+.error-message-route {
+color: #000;
+text-align: center;
+font-family: "Source Sans 3";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem; 
+}
+
+@media screen and (max-width: 1024px){
+  .error-message-route {
+    font-size: 1.25rem;
+
+  }
+}
+
+
+
+.error-message-home-page{
+  color: #000;
+font-family: "Source Sans 3";
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5rem;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+text-underline-position: from-font;
+}
+
+.error-message-home-page a {
+  color: black;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px){
+  .error-message-home-page {
+    font-size: 1.25rem;
+
+  }
+}
+

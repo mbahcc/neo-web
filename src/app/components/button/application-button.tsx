@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 
 function ApplyTodayButton() {
   const handleClick = () => {
-    window.open("https://forms.office.com/r/8suBvDvY2y", "_blank");
+    window.open("https://linktr.ee/neoucinci", "_blank");
   };
 
   return (

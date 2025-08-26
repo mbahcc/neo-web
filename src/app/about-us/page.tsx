@@ -101,14 +101,13 @@ function AboutUs() {
                 <a href="mailto:neoinitiativeuc@gmail.com" target="_blank">
                   here
                 </a>
-                . Lastly, looking to the become an analyst at Neo? You can find
-                the application{" "}
+                . Lastly, looking to the become an analyst at Neo? {" "}
                 <a
                   href="https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=bC4i9cZf60iPA3PbGCA7Yz3jtH7v2yxNtQVQwdu0mfNUM0lURTgzVzUwMjBUUlNVTEZITEJPR0tONi4u"
                   target="_blank"
                 >
                   {" "}
-                  here.{" "}
+                  Apply today!{" "}
                 </a>
               </motion.div>
             </div>

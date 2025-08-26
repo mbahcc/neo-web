@@ -28,7 +28,7 @@ function ContactUs() {
         >
           <InputForm />
         </div>
-        <div style={{ marginTop: "50px" }}>
+        <div className="mobile-margin">
           <BottomBar />
         </div>
       </div>
