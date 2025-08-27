@@ -16,10 +16,10 @@ function AboutUs() {
           flexDirection: "column",
         }}
       >
-        <title>Neo Initative</title>
-        <div className="event-subtitle-text">
+        <title>About Us - Neo Initiative</title>
+        <h2 className="event-subtitle-text">
           Learn more about the Neo Initiative.
-        </div>
+        </h2>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -30,7 +30,7 @@ function AboutUs() {
             delay: 0.5,
           }}
         >
-          <div className="event-header">About Neo.</div>
+          <h1 className="event-header">About Neo</h1>
         </motion.div>
 
         <motion.div
@@ -51,7 +51,7 @@ function AboutUs() {
 
         <div className="get-in-touch-container">
           <div className="get-in-touch-format">
-            <div className="get-in-touch-header">
+            <h2 className="get-in-touch-header">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 viewport={{ once: true }}
@@ -65,7 +65,7 @@ function AboutUs() {
               >
                 Get In Touch
               </motion.div>
-            </div>
+            </h2>
 
             <div className="get-in-touch-text">
               <motion.div

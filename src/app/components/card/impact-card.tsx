@@ -5,9 +5,9 @@ import { motion } from "motion/react";
 function ImpactCard() {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 40 }} // Initial Position, invisible and start 20px down
-      animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
-      transition={{ duration: 1.0, ease: "easeOut", type: "spring" }} // Transition length
+      initial={{ opacity: 0, y: 40 }} 
+      animate={{ opacity: 1, y: 0 }} 
+      transition={{ duration: 1.0, ease: "easeOut", type: "spring" }} 
     >
       <Card className="cardStyling">
         <Card.Img

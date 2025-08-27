@@ -9,9 +9,10 @@ import BottomBar from "../components/bottom-bar";
 function Events() {
   return (
     <main>
+      <title>Events - Neo Initiative</title>
       <div className="event-page-format">
         <NavBar />
-        <div className="event-subtitle-text">See how we build community.</div>
+        <h2 className="event-subtitle-text">See how we build community.</h2>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -22,7 +23,7 @@ function Events() {
             delay: 0.5,
           }}
         >
-          <div className="event-header">Past Events</div>
+          <h1 className="event-header">Past Events</h1>
         </motion.div>
         <div className="event-card-section">
           <SpringOnboarding />

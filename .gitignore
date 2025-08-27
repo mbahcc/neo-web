@@ -44,6 +44,7 @@ next-env.d.ts
 .vercel
 
 
+# Misc
 /public
 /src/app/sitemap.tsx
 /src/app/page-metadata.ts
@@ -51,3 +52,4 @@ next-env.d.ts
 /src/app/events/events-metadata.ts
 /src/app/contact-us/contact-us-metadata.ts
 /src/app/about-us/about-us-metadata.ts
+/src/app/icon.ico

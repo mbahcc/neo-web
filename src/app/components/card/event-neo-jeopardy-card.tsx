@@ -4,8 +4,8 @@ import { motion } from "motion/react";
 function NeoJeopardyCard() {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 40 }} // Initial Position, invisible and start 20px down
-      animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
+      initial={{ opacity: 0, y: 40 }} 
+      animate={{ opacity: 1, y: 0 }}
       transition={{
         duration: 1.5,
         ease: "easeOut",

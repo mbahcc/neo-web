@@ -14,17 +14,18 @@ export const metadata = HomePageMetadata;
 export default function Home() {
   return (
     <main>
+      <title>Home - Neo Initiative</title>
       <NavBar />
-      <div className="subtitleText">More than just a club.</div>
-      <div className="header"> Let the Data Speak. </div>
+      <h2 className="subtitleText">More than just a club.</h2>
+      <h1 className="header"> Let the Data Speak. </h1>
       <div className="hero-section">
         <div className="hero-content">
-          <div className="text">
+          <p className="text">
             {" "}
             The Neo Initiative is a student-led organization at the University
             of Cincinnati that provides consulting services to minority owned
             local businesses.
-          </div>
+          </p>
         </div>
         <div className="home-page-buttons">
           <ContactUsButton />

@@ -15,11 +15,11 @@ function ContactUs() {
           justifyContent: "space-between",
         }}
       >
-        <title>Neo Initiative</title>
+        <title>Contact Us - Neo Initiative</title>
         <NavBar />
-        <div className="contact-us-subtitle-text">
+        <h1 className="contact-us-subtitle-text">
           Learn how to get involved for clients.
-        </div>
+        </h1>
         <div
           style={{
             alignSelf: "center",

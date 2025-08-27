@@ -4,14 +4,14 @@ import { motion } from "motion/react";
 function SpringOnboarding() {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 40 }} // Initial Position, invisible and start 20px down
-      animate={{ opacity: 1, y: 0 }} // Slides up to being visible and its normal position
+      initial={{ opacity: 0, y: 40 }} 
+      animate={{ opacity: 1, y: 0 }} 
       transition={{
         duration: 1.5,
         ease: "easeOut",
         type: "spring",
         delay: 1.0,
-      }} // Transition length
+      }} 
     >
       <Card className="cardStyling">
         <Card.Img variant="top" src="team/org-photo.JPG" />
