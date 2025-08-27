@@ -40,7 +40,7 @@ export default function Home() {
 
       <div className="home-section-header">
         <span>A peek into</span>{" "}
-        <span style={{ color: "#9acbd6" }}> neo:</span>{" "}
+        <span style={{ color: "#9acbd6" }}> Neo:</span>{" "}
       </div>
       <div className="home-testimonial-container">
         <TestimonialChike />
