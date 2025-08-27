@@ -15,7 +15,6 @@ function ContactUs() {
           justifyContent: "space-between",
         }}
       >
-        <title>Contact Us - Neo Initiative</title>
         <NavBar />
         <h1 className="contact-us-subtitle-text">
           Learn how to get involved for clients.

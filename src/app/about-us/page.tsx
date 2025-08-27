@@ -16,7 +16,6 @@ function AboutUs() {
           flexDirection: "column",
         }}
       >
-        <title>About Us - Neo Initiative</title>
         <h2 className="event-subtitle-text">
           Learn more about the Neo Initiative.
         </h2>

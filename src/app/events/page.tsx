@@ -9,7 +9,6 @@ import BottomBar from "../components/bottom-bar";
 function Events() {
   return (
     <main>
-      <title>Events - Neo Initiative</title>
       <div className="event-page-format">
         <NavBar />
         <h2 className="event-subtitle-text">See how we build community.</h2>

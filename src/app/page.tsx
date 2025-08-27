@@ -14,7 +14,6 @@ export const metadata = HomePageMetadata;
 export default function Home() {
   return (
     <main>
-      <title>Home - Neo Initiative</title>
       <NavBar />
       <h2 className="subtitleText">More than just a club.</h2>
       <h1 className="header"> Let the Data Speak. </h1>
