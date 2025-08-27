@@ -43,7 +43,7 @@ next-env.d.ts
 
 .vercel
 
-# To protect club assets
+
 /public
 /src/app/sitemap.tsx
 /src/app/page-metadata.ts
