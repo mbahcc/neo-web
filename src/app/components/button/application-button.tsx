@@ -9,10 +9,6 @@ function ApplyTodayButton() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-  const handleClick = () => { // This is for application season; currently closed
-    window.open("https://linktr.ee/neoucinci", "_blank");
-  };
-
 
 
 

@@ -1,8 +1,6 @@
 "use client";
 import Card from "react-bootstrap/Card";
 import { motion } from "motion/react";
-import Image from "next/image";
-
 function CommunityCard() {
   return (
     <motion.div
