@@ -1,16 +1,27 @@
 "use client";
 import Button from "react-bootstrap/Button";
+import { useState } from 'react';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
 function ApplyTodayButton() {
-  const handleClick = () => {
+
+ const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+  const handleClick = () => { // This is for application season; currently closed
     window.open("https://linktr.ee/neoucinci", "_blank");
   };
+
+
+
+
 
   return (
     <>
       <Button
         variant="primary"
-        onClick={handleClick}
+        onClick={handleShow}
         style={{
           fontFamily: "Source Sans 3",
           fontWeight: "700",
@@ -34,6 +45,15 @@ function ApplyTodayButton() {
       >
         Apply Today
       </Button>
+      
+      <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title style ={{fontWeight: 700}}className="offcanvas-text">Neo Initiative - Fall 2025 Cohort Applications</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body className="offcanvas-text">
+          Sorry, our applications are currently closed for the Fall 2025 semester. Check back later for updates.
+        </Offcanvas.Body>
+      </Offcanvas>
     </>
   );
 }
