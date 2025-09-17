@@ -22,7 +22,7 @@ function ContactUs() {
         <div
           style={{
             alignSelf: "center",
-            marginTop: "125px",
+            marginTop: "150px",
           }}
         >
           <InputForm />
