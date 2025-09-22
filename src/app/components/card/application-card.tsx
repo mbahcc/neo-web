@@ -1,6 +1,5 @@
 "use client";
 import Card from "react-bootstrap/Card";
-import { Placeholder } from "react-bootstrap";
 import { motion } from "motion/react";
 
 function ApplyNowCard() {

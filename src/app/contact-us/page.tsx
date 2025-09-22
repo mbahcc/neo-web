@@ -2,6 +2,7 @@
 import NavBar from "../components/navbar";
 import BottomBar from "../components/bottom-bar";
 import InputForm from "../components/input-form";
+import NewInputForm from "../components/new-input-form";
 
 function ContactUs() {
   return (
@@ -19,13 +20,12 @@ function ContactUs() {
         <h1 className="contact-us-subtitle-text">
           Learn how to get involved for clients.
         </h1>
-        <div
+        <div className = "input-form-spacing"
           style={{
             alignSelf: "center",
-            marginTop: "150px",
           }}
         >
-          <InputForm />
+          <NewInputForm />
         </div>
         <div className="mobile-margin">
           <BottomBar />
