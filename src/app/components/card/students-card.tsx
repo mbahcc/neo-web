@@ -26,7 +26,6 @@ function StudentsCard() {
       >
         <Card.Header>Our Analysts</Card.Header>
         <Card.Body>
-          <Card.Title></Card.Title>
           <Card.Text>
             In addition to uplifting our community, we recognize that our
             analysts are students first, and are committed to their professional

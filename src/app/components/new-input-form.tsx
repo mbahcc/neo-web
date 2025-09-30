@@ -34,7 +34,6 @@ function NewInputForm() {
         });
         if (response.ok) {
             console.log("Form submitted successfully");
-            // Set form data to disabled and show success message
             setFormData({ company: "", name: "", email: "", desc: "" });
         }
     } catch (error) {   

@@ -4,6 +4,9 @@ import { Analytics } from "@vercel/analytics/next";
 import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { disableConsoleLog } from "./utils/console-log";
+
+
 
 
 
@@ -26,6 +29,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Neo Initiative | Let The Data Speak",
 };
+// Run to disable console log in prod.
+disableConsoleLog();
 
 export default function RootLayout({
   children,
