@@ -1,66 +1,39 @@
-import Airtable from "airtable";
-import { NextResponse, NextRequest } from "next/server";
+import clientPromise from "@/lib/mongodb";
+import { NextResponse } from "next/server";
 
-
-
-function getRequiredEnvVar(name: string): string {
-  const value = process.env[name];
-  if (!value) {
-    throw new Error(`Missing required environment variable: ${name}`);
-  }
-  return value;
-}
-
-
-const apiKey = getRequiredEnvVar('AIRTABLE_API_KEY');
-const baseId = getRequiredEnvVar('AIRTABLE_BASE_ID');
-
-const tableName = 'neo_web_form';
-
-const base = new Airtable({ apiKey }).base(baseId);
-
-interface FormData {
-  name: string;
-  email: string;
-  desc: string;
-  company: string;
-}
-
-export async function POST(request: NextRequest) {
+export async function POST(request: Request) {
   try {
-    const body: FormData = await request.json();
-    const { name, email, desc, company } = body;
+    const { company, name, email, desc } = await request.json();
 
+    if (!company || !name || !email) {
+      return NextResponse.json(
+        { error: "Company, Name, and Email are required fields." },
+        { status: 400 }
+      );
+    }
 
-    console.log('Submitting to Airtable:', { name, email, desc, company });
+    const client = await clientPromise;
+    const database = client.db("input-form"); // Using the same DB name as before
+    const userCollection = database.collection("results");
 
-    const record = await base(tableName).create([
-      {
-        fields: {
-          Name: name,
-          Email: email,
-          Description: desc,
-          Company: company,
-        },
-      },
-    ]);
+    const inputData = {
+      company,
+      name,
+      email,
+      message: desc,
+      createdAt: new Date(),
+    };
 
-     console.log('Successfully created record:', record[0].id);
+    const result = await userCollection.insertOne(inputData);
 
-    return NextResponse.json({ 
-      message: 'Form submitted successfully', 
-      record: record[0].id 
-    });
-  } catch (error) {
-    console.error('Error submitting to Airtable:', error);
-    
-    const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
-    
     return NextResponse.json(
-      { 
-        message: 'Error submitting form', 
-        error: errorMessage 
-      }, 
+      { message: "Form data received successfully", id: result.insertedId },
+      { status: 201 }
+    );
+  } catch (error) {
+    console.error("Error processing form data:", error);
+    return NextResponse.json(
+      { error: "Internal Server Error" },
       { status: 500 }
     );
   }
