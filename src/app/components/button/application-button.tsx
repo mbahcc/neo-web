@@ -5,9 +5,9 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 function ApplyTodayButton() {
 
- const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
 
 
@@ -41,13 +41,45 @@ function ApplyTodayButton() {
       >
         Apply Today
       </Button>
-      
+
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title style ={{fontWeight: 700}}className="offcanvas-text">Neo Initiative - Fall 2025 Cohort Applications</Offcanvas.Title>
+          <Offcanvas.Title style={{ fontWeight: 700 }} className="offcanvas-text">Neo Initiative - Spring 2026 Cohort Applications</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body className="offcanvas-text">
-          Sorry, our applications are currently closed for the Fall 2025 semester. Check back later for updates.
+          <div style={{ display: "flex", justifyContent: "flex-start" }}>
+            <Button
+              variant="primary"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe2Rt0KP9QxURcVLXnVvX46BDSYfb_6FabLXvQpZOurqbU2qw/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontFamily: "Source Sans 3",
+                fontWeight: "700",
+                backgroundColor: "#9acbd6",
+                borderColor: "#9acbd6",
+                boxShadow:
+                  "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+                transition: "all 0.2 ease-in-out",
+                height: "44px",
+                padding: "0 0.75rem",
+                borderRadius: "0px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = "#5ca3b2";
+                e.currentTarget.style.transform = "translateY(-1px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = "#9acbd6";
+                e.currentTarget.style.transform = "translateY(0)";
+              }}
+            >
+              Project Lead
+            </Button>
+          </div>
         </Offcanvas.Body>
       </Offcanvas>
     </>
