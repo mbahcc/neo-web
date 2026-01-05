@@ -1,34 +1,32 @@
-
-
 /* text-xs
-/* font-size: var(--text-xs); /* 0.75rem (12px) */ 
+/* font-size: var(--text-xs); /* 0.75rem (12px) */
 /* line-height: var(--text-xs--line-height); /* calc(1 / 0.75) */
 /* text-sm
-/* font-size: var(--text-sm); /* 0.875rem (14px) */ 
+/* font-size: var(--text-sm); /* 0.875rem (14px) */
 /* line-height: var(--text-sm--line-height); /* calc(1.25 / 0.875) */
 /* text-base
-/* font-size: var(--text-base); /* 1rem (16px) */ 
+/* font-size: var(--text-base); /* 1rem (16px) */
 /* line-height: var(--text-base--line-height); /* calc(1.5 / 1) */
 /* text-lg
-/* font-size: var(--text-lg); /* 1.125rem (18px) */ 
+/* font-size: var(--text-lg); /* 1.125rem (18px) */
 /* line-height: var(--text-lg--line-height); /* calc(1.75 / 1.125) */
 /* text-xl
-/* font-size: var(--text-xl); /* 1.25rem (20px) */ 
+/* font-size: var(--text-xl); /* 1.25rem (20px) */
 /* line-height: var(--text-xl--line-height); /* calc(1.75 / 1.25) */
 /* text-2xl
-/* font-size: var(--text-2xl); /* 1.5rem (24px) */ 
+/* font-size: var(--text-2xl); /* 1.5rem (24px) */
 /* line-height: var(--text-2xl--line-height); /* calc(2 / 1.5) */
 /* text-3xl
-/* font-size: var(--text-3xl); /* 1.875rem (30px) */ 
+/* font-size: var(--text-3xl); /* 1.875rem (30px) */
 /* line-height: var(--text-3xl--line-height); /* calc(2.25 / 1.875) */
 /* text-4xl
-/* font-size: var(--text-4xl); /* 2.25rem (36px) */ 
+/* font-size: var(--text-4xl); /* 2.25rem (36px) */
 /* line-height: var(--text-4xl--line-height); /* calc(2.5 / 2.25) */
 /* text-5xl
-/* font-size: var(--text-5xl); /* 3rem (48px) */ 
+/* font-size: var(--text-5xl); /* 3rem (48px) */
 /* line-height: var(--text-5xl--line-height); /* 1 */
 /* text-6xl
-/* font-size: var(--text-6xl); /* 3.75rem (60px) */ 
+/* font-size: var(--text-6xl); /* 3.75rem (60px) */
 /* line-height: var(--text-6xl--line-height); /* 1 */
 
 
@@ -46,16 +44,18 @@
 }
 
 html body {
-background: #f9f9f7;
+  background: #f9f9f7;
   font-family: var(--font-source-sans), sans-serif;
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 768px){
-  html,html body {
+@media screen and (max-width: 768px) {
+
+  html,
+  html body {
     background: #f9f9f7;
-  font-family: var(--font-source-sans), sans-serif;
-  overflow-x: hidden !important;
+    font-family: var(--font-source-sans), sans-serif;
+    overflow-x: hidden !important;
   }
 }
 
@@ -66,7 +66,7 @@ background: #f9f9f7;
 /* Custom NavBar color that incorporates neo org colors */
 
 .custom-navbar {
-  background-color:  #9acbd6;
+  background-color: #9acbd6;
   font-family: var(--font-source-sans), sans-serif;
 }
 
@@ -82,20 +82,20 @@ background: #f9f9f7;
 
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .custom-navbar .nav-link {
     font-size: 1rem;
+  }
 }
-}
 
 
 
-.custom-navbar-image{
+.custom-navbar-image {
   margin-left: 100px;
-  
+
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .custom-navbar-image {
     margin-left: 0px;
   }
@@ -109,7 +109,7 @@ background: #f9f9f7;
   font-family: var(--font-source-sans);
   font-weight: 700;
   margin-top: 125px;
-  margin-left: 100px;
+  padding-left: 2.5rem;
 }
 
 .home-section-header {
@@ -123,7 +123,7 @@ background: #f9f9f7;
   text-align: center;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .home-section-header {
     font-size: 2.25rem;
     margin-left: 0px;
@@ -131,16 +131,14 @@ background: #f9f9f7;
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .header {
     font-size: 2.25rem;
-    margin-left: 0px;
-    padding-left: 20px;
     font-family: var(--font-source-sans);
   }
 }
 
-.offcanvas-text{
+.offcanvas-text {
   font-size: 1.25rem;
   font-family: var(--font-source-sans);
   font-weight: 400;
@@ -154,35 +152,31 @@ background: #f9f9f7;
   max-width: 850px;
   word-wrap: break-word;
   margin: 5px;
-  margin-left: 100px;
+  padding-left: 2.5rem;
   white-space: "normal";
 
 }
 
-@media screen and (max-width: 1024px){
-  .text{
-    margin-left: 0px;
-    padding-left: 20px;
+@media screen and (max-width: 1024px) {
+  .text {
     font-size: 1.25rem;
     font-family: var(--font-source-sans);
   }
 }
-  
+
 .home-page-buttons {
-   display: flex;
+  display: flex;
   justify-content: left;
   align-items: center;
-  margin-left: 100px;
+  padding-left: 2.5rem;
   margin-top: 20px;
   gap: 15px
 }
 
-@media screen and (max-width: 1024px){
-  .home-page-buttons{
-    margin-left: 20px;
-    padding-left: 0px;
-  }
+/*@media screen and (max-width: 1024px) {
+  .home-page-buttons {}
 }
+*/
 
 .bottomBarText {
   font-size: 1.125rem;
@@ -205,15 +199,15 @@ background: #f9f9f7;
 
 
 
-  @media screen and (max-width: 1024px){
-    .cardCss {
-      flex-direction: column;
-      gap: 20px;
-      padding: 20px;
-    }
+@media screen and (max-width: 1024px) {
+  .cardCss {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
   }
-  
-  .cardStyling {
+}
+
+.cardStyling {
   width: clamp(10rem, -2.857rem + 34.286vw, 28rem);
   height: 180px;
   border: none;
@@ -228,7 +222,7 @@ background: #f9f9f7;
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .cardStyling {
     width: 20rem;
   }
@@ -241,117 +235,117 @@ background: #f9f9f7;
   font-weight: 400;
   max-width: 950px;
   word-wrap: break-word;
-  position: relative;
-  top: 80px;
-  margin-left: 100px;
+  margin-top: 100px;
+  padding-left: 2.5rem;
   text-align: left;
   display: flex;
 }
 
-@media screen and (max-width: 1024px){
-  .subtitleText{
+@media screen and (max-width: 1024px) {
+  .subtitleText {
     margin-left: 0px;
     font-size: 1rem;
-    padding-left: 20px
+    margin-top: 50px;
   }
 }
 
 
-@media screen and (max-width: 1024px){
-.mobile-margin{
-  margin-top: 50px;
+@media screen and (max-width: 1024px) {
+  .mobile-margin {
+    margin-top: 50px;
   }
 }
 
 
 .testimonialCard {
-    width: clamp(5rem, -22.857rem + 74.286vw, 44rem)
+  width: clamp(5rem, -22.857rem + 74.286vw, 44rem)
 }
 
- @media screen and (max-width: 1024px){
-    .testimonialCard {
-      width: 22rem;
-    }
+@media screen and (max-width: 1024px) {
+  .testimonialCard {
+    width: 22rem;
   }
+}
 
-  .testmonialContainer{
-    flex-direction: row;
+.testmonialContainer {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonialContainer {
+    flex-direction: column;
   }
+}
 
-  @media screen and (max-width: 1024px){
-    .testimonialContainer {
-      flex-direction: column;
-    }
-  }
-
-  .inputFormContainer {
+.inputFormContainer {
   min-width: 300px;
-  min-height: 140px; 
-  padding-top: 1.25rem;    
-  padding-right: 1.25rem;  
-  padding-left: 1.25rem;   
-  padding-bottom: 0.75rem; 
-  border: 1px solid #e5e7eb; 
-  background-color: #FFFFFF;  
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); 
-  border-radius: 0.375rem; 
-  }
+  min-height: 140px;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  padding-bottom: 0.75rem;
+  border: 1px solid #e5e7eb;
+  background-color: #FFFFFF;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 0.375rem;
+}
 
-  @media screen and (max-width: 1024px){
-    .inputFormContainer{
-      min-width: 0px;
-      width: 375px;
-    }
+@media screen and (max-width: 1024px) {
+  .inputFormContainer {
+    min-width: 0px;
+    width: 375px;
   }
-  .formInput{
-  width: clamp(20rem, -15.929rem + 95.81vw, 70.3rem);            
-  height: 2.25rem;              
-  padding-top: 0.5rem;        
-  padding-bottom: 0.5rem;     
-  padding-left: 0.5rem;       
-  padding-right: 0.5rem;      
-  border: 1px solid #9ca3af;  
-  border-radius: 0.25rem;     
-  font-size: 1.0rem;         
-  }
+}
 
-  @media screen and (max-width: 1024px){
-    .formInput{
-      width: 350px;
-    }
-  }
+.formInput {
+  width: clamp(20rem, -15.929rem + 95.81vw, 70.3rem);
+  height: 2.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid #9ca3af;
+  border-radius: 0.25rem;
+  font-size: 1.0rem;
+}
 
-  .formTextArea{
-  width: clamp(20rem, -15.929rem + 95.81vw, 70.3rem);               
-  height: 144px;              
-  padding-top: 0.75rem;       
-  padding-left: 0.5rem;       
-  padding-right: 0.5rem;      
-  border: 1px solid #9ca3af;  
-  border-radius: 0.25rem;     
-  font-size: 1.0rem;         
+@media screen and (max-width: 1024px) {
+  .formInput {
+    width: 350px;
   }
+}
 
-  @media screen and (max-width: 1024px){
-    .formTextArea{
-      width: 350px;
-    }
+.formTextArea {
+  width: clamp(20rem, -15.929rem + 95.81vw, 70.3rem);
+  height: 144px;
+  padding-top: 0.75rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 1px solid #9ca3af;
+  border-radius: 0.25rem;
+  font-size: 1.0rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .formTextArea {
+    width: 350px;
   }
+}
 
-  .aboutText{
-    flex-direction: row;
+.aboutText {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutText {
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.25rem;
+    padding-right: 10px;
   }
+}
 
-  @media screen and (max-width: 1024px){
-    .aboutText{
-      flex-direction: column;
-      text-align: left;
-      font-size: 1.25rem;
-      padding-right: 10px;
-    }
-  }
-
-  .aboutTextParagraph{
+.aboutTextParagraph {
   font-size: 1.5rem;
   font-family: var(--font-source-sans);
   font-weight: 400;
@@ -367,44 +361,44 @@ background: #f9f9f7;
   padding-bottom: 10px;
   max-width: 750px;
   padding-right: 100px;
-  }
+}
 
-  @media screen and (max-width: 1024px){
-  .aboutTextParagraph{
+@media screen and (max-width: 1024px) {
+  .aboutTextParagraph {
     margin-left: 0px;
     padding-left: 20px;
     padding-right: 0;
     font-size: 1.25rem;
     font-family: var(--font-source-sans);
     padding-top: 0px;
-  
+
   }
 }
 
-.navbar-icon{
+.navbar-icon {
   border-radius: 50px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   max-width: 30%;
   margin-left: 100px;
 }
 
-@media screen and (max-width: 1024px){
-  .navbar-icon{
-    margin-left:0px;
+@media screen and (max-width: 1024px) {
+  .navbar-icon {
+    margin-left: 0px;
   }
 }
 
-.navbar-links{
+.navbar-links {
   gap: 15px;
   justify-content: center;
   align-items: center;
 
 }
 
-@media screen and (max-width: 1024px){
-  .navbar-links{
+@media screen and (max-width: 1024px) {
+  .navbar-links {
     gap: 0px;
-    
+
   }
 }
 
@@ -447,103 +441,100 @@ background: #f9f9f7;
   margin-top: 150px;
 }
 
-.home-cards-section{
-margin-top: 20px;
-          align-items:center;
-          justify-content: center;
-          display: flex;
-          width: 100%;
-          gap: 40px;
-          padding: 50px;
+.home-cards-section {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  padding: 50px;
 }
 
-@media screen and (max-width: 1024px){
-    .home-cards-section {
-      flex-direction: column;
-      gap: 20px;
-      padding: 20px;
-    }
-  }
-
-.home-testimonial-container{
-
-   width: clamp(5rem, -22.857rem + 74.286vw, 44rem);
-   display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-top: 10px;
-          gap: 50px;
-          padding: 50px;
-          margin: 10px auto;
-
-}
-
- @media screen and (max-width: 1024px){
-    .home-testimonial-container {
-      width: 22rem;
-      flex-direction: column;
-    }
-  }
-
-  .event-page-format{
-    overflow-y: hidden;
-    min-height: 100vh;
-    display: flex;
+@media screen and (max-width: 1024px) {
+  .home-cards-section {
     flex-direction: column;
-    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
   }
+}
 
-  .event-card-section{
-    gap: 50px;
-    margin-left: 100px;
-    margin-top: 20px;
-    display: flex;
-    margin: 10px auto;
-    padding: 5px;
+.home-testimonial-container {
+
+  width: clamp(5rem, -22.857rem + 74.286vw, 44rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 50px;
+  padding: 50px;
+  margin: 10px auto;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .home-testimonial-container {
+    width: 22rem;
+    flex-direction: column;
   }
+}
 
-  @media screen and (max-width: 1024px){
-    .event-card-section {
-      flex-direction: column;
-      gap: 20px;
-      padding: 20px;
-    }
+.event-page-format {
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-card-section {
+  gap: 50px;
+  margin-left: 100px;
+  margin-top: 20px;
+  display: flex;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .event-card-section {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
   }
+}
 
-  .event-text{
+.event-text {
   font-size: 1.5rem;
   font-family: var(--font-source-sans);
   font-weight: 400;
   max-width: 850px;
   word-wrap: break-word;
-  margin-left: 100px;
+  padding-left: 2.5rem;
   white-space: normal;
   margin-top: 75px;
   margin: 10px auto;
-  padding: 20px;
-  }
+}
 
-  @media screen and (max-width: 1024px){
-  .event-text{
-    margin-left: 0px;
+@media screen and (max-width: 1024px) {
+  .event-text {
     font-size: 1.25rem;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: 0px;
-  
+
   }
 }
 
-.contact-us-subtitle-text{
+.contact-us-subtitle-text {
   font-size: 1.125rem;
   color: #6b6b6b;
   font-family: var(--font-source-sans);
   font-weight: 400;
   max-width: 950px;
   word-wrap: break-word;
-  position: absolute;
-  top: 175px;
+  margin-top: 100px;
   text-align: left;
   display: flex;
   align-self: center;
@@ -559,11 +550,11 @@ margin-top: 20px;
   margin-bottom: 190px;
 }
 
-@media screen and (max-width: 1024px){
-    .about-us-testimonial-container {
-      flex-direction: column;
-    }
+@media screen and (max-width: 1024px) {
+  .about-us-testimonial-container {
+    flex-direction: column;
   }
+}
 
 .get-in-touch-container {
 
@@ -574,10 +565,10 @@ margin-top: 20px;
   margin-bottom: -200px;
 }
 
-.get-in-touch-format{
-display: flex;
-              flex-direction: column;
-              gap: 10px;
+.get-in-touch-format {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 
 }
 
@@ -592,7 +583,7 @@ display: flex;
   text-align: center;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .get-in-touch-header {
     font-size: 2.25rem;
     margin-left: 0px;
@@ -601,14 +592,14 @@ display: flex;
   }
 }
 
-.get-in-touch-text{
+.get-in-touch-text {
 
-   justify-content: center;
-   align-self: center;
-   padding-top: 40px;
-   font-size: 1.5rem;
-   font-family: var(--font-source-sans);
-   font-weight: 400;
+  justify-content: center;
+  align-self: center;
+  padding-top: 40px;
+  font-size: 1.5rem;
+  font-family: var(--font-source-sans);
+  font-weight: 400;
   max-width: 850px;
   word-wrap: break-word;
   margin: 5px;
@@ -616,8 +607,8 @@ display: flex;
   white-space: "normal";
 }
 
-@media screen and (max-width: 1024px){
-  .get-in-touch-text{
+@media screen and (max-width: 1024px) {
+  .get-in-touch-text {
     margin-left: 0px;
     padding-left: 20px;
     font-size: 1.25rem;
@@ -626,9 +617,9 @@ display: flex;
   }
 }
 
-.bottom-bar-container{
+.bottom-bar-container {
   height: 50px;
-  width: 100vw;
+  width: 100%;
   background-color: #9acbd6;
   display: flex;
   align-items: center;
@@ -636,7 +627,7 @@ display: flex;
   flex-direction: row;
 }
 
-.bottom-bar-format{
+.bottom-bar-format {
 
   display: flex;
   flex-direction: row;
@@ -646,7 +637,7 @@ display: flex;
 
 }
 
-.event-subtitle-text{
+.event-subtitle-text {
 
   font-size: 1.125rem;
   color: #6b6b6b;
@@ -656,84 +647,82 @@ display: flex;
   word-wrap: break-word;
   position: relative;
   top: 80px;
-  margin-left: 100px;
+  padding-left: 2.5rem;
   text-align: left;
   display: flex;
 
 }
 
-@media screen and (max-width: 1024px){
-  .event-subtitle-text{
-    margin-left: 0px;
+@media screen and (max-width: 1024px) {
+  .event-subtitle-text {
     text-align: center;
     align-items: center;
     justify-content: center;
-  
+    margin-top: 50px;
   }
 }
 
-.event-header{
+.event-header {
 
   font-size: 3.75rem;
   font-family: var(--font-source-sans);
   font-weight: 700;
   margin-top: 100px;
-  margin-left: 100px;
+  padding-left: 2.5rem;
   text-align: left;
   display: flex;
 
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .event-header {
     font-size: 3rem;
-    margin-left: 0px;
     text-align: center;
     align-items: center;
     justify-content: center;
   }
 }
 
-/* For the 404 Page */ 
+/* For the 404 Page */
 
-.error-top-bar{
-  width: 100vw;
+.error-top-bar {
+  width: 100%;
   height: 50px;
   flex-shrink: 0;
-background: #9ACBD6;
+  background: #9ACBD6;
 }
 
-.error-logo{
-width: 74px;
-height: 74px;
-flex-shrink: 0;
-aspect-ratio: 1/1;
-border-radius: 50px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+.error-logo {
+  width: 74px;
+  height: 74px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  border-radius: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.error-message-container{
-display: flex;
-width: 100vw;
-height: 500px;
-flex-direction: column;
-align-items: center;
-gap: 8px;
-flex-shrink: 0;
+.error-message-container {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
 }
 
-.error-message-header{
-color: #000;
-margin-top: 150px;
-text-align: center;
-font-family: "Source Sans 3";
-font-size: 8rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.error-message-header {
+  color: #000;
+  margin-top: 150px;
+  text-align: center;
+  font-family: "Source Sans 3";
+  font-size: 8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .error-message-header {
     font-size: 6rem;
     margin-top: 100px;
@@ -741,17 +730,17 @@ line-height: normal;
   }
 }
 
-.error-message-subtext{
-color: #000;
-text-align: center;
-font-family: "Source Sans 3";
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; 
+.error-message-subtext {
+  color: #000;
+  text-align: center;
+  font-family: "Source Sans 3";
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .error-message-subtext {
     font-size: 1.25rem;
 
@@ -759,16 +748,16 @@ line-height: 160%;
 }
 
 .error-message-route {
-color: #000;
-text-align: center;
-font-family: "Source Sans 3";
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5rem; 
+  color: #000;
+  text-align: center;
+  font-family: "Source Sans 3";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .error-message-route {
     font-size: 1.25rem;
 
@@ -777,19 +766,19 @@ line-height: 1.5rem;
 
 
 
-.error-message-home-page{
+.error-message-home-page {
   color: #000;
-font-family: "Source Sans 3";
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5rem;
-text-decoration-line: underline;
-text-decoration-style: solid;
-text-decoration-skip-ink: none;
-text-decoration-thickness: auto;
-text-underline-offset: auto;
-text-underline-position: from-font;
+  font-family: "Source Sans 3";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
 
 .error-message-home-page a {
@@ -797,7 +786,7 @@ text-underline-position: from-font;
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .error-message-home-page {
     font-size: 1.25rem;
 
@@ -808,19 +797,18 @@ text-underline-position: from-font;
   width: 1000px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .input-form-width {
     width: 325px;
   }
 }
 
-.input-form-spacing{
-  margin-top: 100px;
+.input-form-spacing {
+  margin-top: 15px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .input-form-spacing {
     margin-top: 150px;
   }
 }
-
