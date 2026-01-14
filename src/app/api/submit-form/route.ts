@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     }
 
     const client = await clientPromise;
-    const database = client.db("input-form"); // Using the same DB name as before
+    const database = client.db("input-form");
     const userCollection = database.collection("results");
 
     const inputData = {

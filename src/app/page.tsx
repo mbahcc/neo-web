@@ -4,7 +4,7 @@ import ImpactCard from "./components/card/impact-card";
 import DevelopmentCard from "./components/card/development-card";
 import TestimonialChike from "./components/card/testominal-chike-card";
 import TestimonialNahom from "./components/card/testimonial-nahom-card";
-import ApplyTodayButton from "./components/button/application-button";
+import ApplyTodayButton from "./components/button/application-buttons";
 import BottomBar from "./components/bottom-bar";
 import { HomePageMetadata } from "./page-metadata";
 import NavBar from "./components/navbar";
