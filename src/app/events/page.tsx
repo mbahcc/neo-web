@@ -11,7 +11,7 @@ function Events() {
     <main>
       <div className="event-page-format">
         <NavBar />
-        <h2 className="event-subtitle-text">See how we build community.</h2>
+        <h2 className="subtitleText">See how we build community.</h2>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -22,7 +22,7 @@ function Events() {
             delay: 0.5,
           }}
         >
-          <h1 className="event-header">Past Events</h1>
+          <h1 className="header">Past Events</h1>
         </motion.div>
         <div className="event-card-section">
           <SpringOnboarding />

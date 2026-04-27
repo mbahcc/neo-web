@@ -17,7 +17,7 @@ function ContactUs() {
         }}
       >
         <NavBar />
-        <h1 className="contact-us-subtitle-text">
+        <h1 className="subtitleText">
           Learn how to get involved for clients.
         </h1>
         <div className="input-form-spacing"

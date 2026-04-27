@@ -11,7 +11,7 @@ function BottomButton() {
   const [isScrollable, setIsScrollable] = useState(false);
 
   const handleClick = () => {
-    router.push(window.location.pathname);
+    window.scrollTo({top: 0, behavior: "smooth"})
   };
 
   useEffect(() => {

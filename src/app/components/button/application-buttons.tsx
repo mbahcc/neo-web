@@ -52,7 +52,7 @@ function ApplyTodayButton() {
           <div style={{ display: "flex", justifyContent: "flex-start", gap: "1rem", flexDirection: "column" }}>
             <Button
               variant="primary"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe2Rt0KP9QxURcVLXnVvX46BDSYfb_6FabLXvQpZOurqbU2qw/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfOSHEL7fJgjA9F6F31b8Ysp6emFR6FmMrj7sKvQhnyxVnqcA/viewform"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -79,11 +79,11 @@ function ApplyTodayButton() {
                 e.currentTarget.style.transform = "translateY(0)";
               }}
             >
-              Project Lead Application
+              Fall '26 Social Media/Graphic Design Application
             </Button>
             <Button
               variant="primary"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScKha5Ec4X0KD4j2lmTr17TGN47v8SFIBl9oSTEdzIluaBKKA/viewform?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn7vTMmXNBf2UECrcWM0spTtEzLQwAJMVDy3z4zK9ryXavm6jEb_5lZs08_JY_aem_gTWrGw_mqJYmYLBQ3NsHzw"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdZyEmCznc9yhCXsr3LYwk2qmN06RbhWiurrO7Sa_7IqVqXHw/viewform"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -110,11 +110,11 @@ function ApplyTodayButton() {
                 e.currentTarget.style.transform = "translateY(0)";
               }}
             >
-              Project Analyst Application
+              Fall '26 Secretary Application
             </Button>
             <Button
               variant="primary"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeuxZ4i4canbDicwrmCkonf0NI00QEEz4vTS2veTspl-GsRbA/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeI4mJg0dCEWlbL8RpHfkgXSOeFuIEoamm72mli7h9GgKJMLQ/viewform"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -141,7 +141,39 @@ function ApplyTodayButton() {
                 e.currentTarget.style.transform = "translateY(0)";
               }}
             >
-              Development Analyst Application
+              Fall '26 Recruitment and Retention Application
+            </Button>
+
+            <Button
+              variant="primary"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScus1pmTKxDGqV19va9kORFQupDweCUJ6-SLc9o7qErXS_Hcg/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontFamily: "Source Sans 3",
+                fontWeight: "700",
+                backgroundColor: "#9acbd6",
+                borderColor: "#9acbd6",
+                boxShadow:
+                  "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+                transition: "all 0.2 ease-in-out",
+                height: "44px",
+                padding: "0 0.75rem",
+                borderRadius: "0px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = "#5ca3b2";
+                e.currentTarget.style.transform = "translateY(-1px)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = "#9acbd6";
+                e.currentTarget.style.transform = "translateY(0)";
+              }}
+            >
+              Fall '26 Deputy Director of Project Management Application
             </Button>
           </div>
         </Offcanvas.Body>

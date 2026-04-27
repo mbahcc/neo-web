@@ -16,7 +16,7 @@ function AboutUs() {
           flexDirection: "column",
         }}
       >
-        <h2 className="event-subtitle-text">
+        <h2 className="subtitleText">
           Learn more about the Neo Initiative.
         </h2>
         <motion.div
@@ -29,7 +29,7 @@ function AboutUs() {
             delay: 0.5,
           }}
         >
-          <h1 className="event-header">About Neo</h1>
+          <h1 className="header">About Neo</h1>
         </motion.div>
 
         <motion.div
@@ -95,18 +95,10 @@ function AboutUs() {
                   Instagram
                 </a>
                 . For clients, you can formally send an inquiry by utilizing
-                this <Link href="/getinvolved">form.</Link> Looking to host an
+                this <Link href="/contact-us">form.</Link> Looking to host an
                 event in collaboration with us? Please reach us by email{" "}
                 <a href="mailto:neoinitiativeuc@gmail.com" target="_blank">
-                  here
-                </a>
-                . Lastly, looking to the become an analyst at Neo? {" "}
-                <a
-                  href="https://forms.office.com/Pages/DesignPageV2.aspx?origin=NeoPortalPage&subpage=design&id=bC4i9cZf60iPA3PbGCA7Yz3jtH7v2yxNtQVQwdu0mfNUM0lURTgzVzUwMjBUUlNVTEZITEJPR0tONi4u"
-                  target="_blank"
-                >
-                  {" "}
-                  Apply today!{" "}
+                  here.
                 </a>
               </motion.div>
             </div>
